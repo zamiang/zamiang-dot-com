@@ -9,7 +9,7 @@ author:
   github: zamiang
   twitter: zamiang
 permalink: /:categories/:year/:month/:day/:title 
-production_url: http://zamiang.github.io
+production_url: http://www.zamiang.com
 
 markdown: redcarpet
 redcarpet:
