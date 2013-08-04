@@ -1,0 +1,22 @@
+#posts {
+  width: 100%;
+  background: white; }
+  #posts article {
+    border-bottom: 1px dotted #cccccc;
+    padding-bottom: 50px;
+    padding-top: 50px; }
+    #posts article:last-child {
+      padding-bottom: 0px;
+      border-bottom: 0px dotted #cccccc; }
+    #posts article h1 {
+      text-align: left;
+      font-weight: normal;
+      line-height: 160%;
+      font-size: 22px;
+      margin-bottom: 11px; }
+      #posts article h1:before {
+        border-bottom: 0px solid; }
+    #posts article time {
+      display: block;
+      color: #cccccc;
+      margin-bottom: 6px; }

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<section id="posts">
+  <div class="content">
+    <article>
+      <a href="{{ page.url }}"><time datetime="{{ page.date }}" pubdate="">{{ page.date | date: "%d &middot; %m &middot; %y" }}</time></a>
+      <a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
+      {{ content }}
+    </article>
+  </div>
+</section>

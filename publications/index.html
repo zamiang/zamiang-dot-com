@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Publications"
+category: publication
+---
+
+{% include canvas_title.html %}
+<dl>
+  {% for post in site.posts do %}
+  {% if post.category == 'publication' %}
+  <dd class="Pub last">
+    <span class="Title">{{ post.title }}</span>
+    <span class="Author">{{ post.author }}</span>
+    <span class="Journal">{{ post.journal }}</span>
+    (<span class="Date">{{ post.year }}</span>)&nbsp;
+    <remoteURLs>
+      <span class="URL"><a href="{{ post.pdf }}">PDF</a></span>
+      <span class="URL"><a href="{{ post.extra_url }}">More Info</a></span>
+    </remoteURLs><br />
+  <dd />
+  {% endif %}
+  {% endfor %}
+</dl>
