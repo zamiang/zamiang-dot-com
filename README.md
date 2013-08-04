@@ -1,8 +1,8 @@
-# Site build on Jekyll and deployed on S3
+## Code for zamiang.com
 
-See the [Jeckyll docs](http://jekyllrb.com/)
+Site is built on Jekyll and deployed on S3. See the [Jeckyll docs](http://jekyllrb.com/) and the [s3_website docs](https://github.com/laurilehmijoki/s3_website)
 
-## Setup
+### Setup
 
 ```bash
 $ bundle install
@@ -10,15 +10,13 @@ $ jekyll serve --watch
 $ guard
 ```
 
-## Deploy
-
-See [s3_website docs](https://github.com/laurilehmijoki/s3_website)
+### Deploy
 
 ```bash
 $ jekyll build
 $ s3_website push
 ```
 
-## License
+### License
 
 [MIT](http://opensource.org/licenses/MIT)
