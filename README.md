@@ -1,7 +1,22 @@
-# Jekyll Homepage
+## Code for zamiang.com
 
-Uses Jekyll bootstrap and what not
+Site is built on Jekyll and deployed on S3. See the [Jeckyll docs](http://jekyllrb.com/) and the [s3_website docs](https://github.com/laurilehmijoki/s3_website)
 
-## License
+### Setup
+
+```bash
+$ bundle install
+$ jekyll serve --watch
+$ guard
+```
+
+### Deploy
+
+```bash
+$ jekyll build
+$ s3_website push
+```
+
+### License
 
 [MIT](http://opensource.org/licenses/MIT)
