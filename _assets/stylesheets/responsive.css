@@ -3,91 +3,61 @@
     width: 600px; }
 
   header {
-    left: 600px; }
-
-  footer .right {
-    margin-right: 600px; } }
+    left: 600px; } }
 @media (max-width: 2000px) {
   .sidebar, .sidebar-border-cover {
     width: 525px; }
 
   header {
-    left: 525px; }
-
-  footer .right {
-    margin-right: 525px; } }
+    left: 525px; } }
 @media (max-width: 1800px) {
   .sidebar, .sidebar-border-cover {
     width: 475px; }
 
   header {
-    left: 475px; }
-
-  footer .right {
-    margin-right: 475px; } }
+    left: 475px; } }
 @media (max-width: 1600px) {
   .sidebar, .sidebar-border-cover {
     width: 350px; }
 
   header {
-    left: 350px; }
-
-  footer .right {
-    margin-right: 350px; } }
+    left: 350px; } }
 @media (max-width: 1400px) {
   .sidebar, .sidebar-border-cover {
     width: 300px; }
 
   header {
-    left: 300px; }
-
-  footer .right {
-    margin-right: 300px; } }
+    left: 300px; } }
 @media (max-width: 1250px) {
   .sidebar, .sidebar-border-cover {
     width: 200px; }
 
   header {
-    left: 200px; }
-
-  footer .right {
-    margin-right: 200px; } }
+    left: 200px; } }
 @media (max-width: 1100px) {
   .sidebar, .sidebar-border-cover {
     width: 150px; }
 
   header {
-    left: 150px; }
-
-  footer .right {
-    margin-right: 150px; } }
+    left: 150px; } }
 @media (max-width: 1000px) {
   .sidebar, .sidebar-border-cover {
     width: 100px; }
 
   header {
-    left: 100px; }
-
-  footer .right {
-    margin-right: 100px; } }
+    left: 100px; } }
 @media (max-width: 900px) {
   .sidebar, .sidebar-border-cover {
     width: 50px; }
 
   header {
-    left: 50px; }
-
-  footer .right {
-    margin-right: 50px; } }
+    left: 50px; } }
 @media (max-width: 800px) {
   .sidebar, .sidebar-border-cover {
     width: 25px; }
 
   header {
-    left: 25px; }
-
-  footer .right {
-    margin-right: 25px; } }
+    left: 25px; } }
 @media (max-width: 700px) {
   .sidebar, .sidebar-border-cover {
     display: none; }

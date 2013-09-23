@@ -4,9 +4,9 @@
   width: 100%
   background: #fff
   article
-    border-bottom: 1px dotted #ccc
     padding-bottom: 50px
     padding-top: 50px
+    position: relative
     &:last-child
       padding-bottom: 0px
       border-bottom: 0px dotted #ccc
@@ -16,9 +16,31 @@
       line-height: 160%
       font-size: 22px
       margin-bottom: 11px
+      display: block
       &:before
         border-bottom: 0px solid
+    h2
+      border-bottom: 2px solid
+      display: inline-block
+    p
+      line-height: 170%
+      font-size: 18px
+      color: #444
     time
       display: block
       color: #ccc
       margin-bottom: 6px
+    .content
+      max-height: 650px
+      overflow: hidden
+      border-bottom: 1px solid black
+    .arrow-down
+      width: 0
+      height: 0
+      border-left: 30px solid transparent
+      border-right: 30px solid transparent
+      border-top: 20px solid black
+      margin: 0px auto
+      cursor: pointer
+      &:hover
+        opacity: 0.7

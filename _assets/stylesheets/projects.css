@@ -13,7 +13,7 @@
     color: #444444;
     display: inline-block;
     font-size: 17px; }
-  .project p {
+  .project .description {
     display: inline-block;
     vertical-align: top;
     font-weight: normal;

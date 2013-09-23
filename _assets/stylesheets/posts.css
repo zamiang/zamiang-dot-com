@@ -2,9 +2,9 @@
   width: 100%;
   background: white; }
   #posts article {
-    border-bottom: 1px dotted #cccccc;
     padding-bottom: 50px;
-    padding-top: 50px; }
+    padding-top: 50px;
+    position: relative; }
     #posts article:last-child {
       padding-bottom: 0px;
       border-bottom: 0px dotted #cccccc; }
@@ -13,10 +13,32 @@
       font-weight: normal;
       line-height: 160%;
       font-size: 22px;
-      margin-bottom: 11px; }
+      margin-bottom: 11px;
+      display: block; }
       #posts article h1:before {
         border-bottom: 0px solid; }
+    #posts article h2 {
+      border-bottom: 2px solid;
+      display: inline-block; }
+    #posts article p {
+      line-height: 170%;
+      font-size: 18px;
+      color: #444444; }
     #posts article time {
       display: block;
       color: #cccccc;
       margin-bottom: 6px; }
+    #posts article .content {
+      max-height: 650px;
+      overflow: hidden;
+      border-bottom: 1px solid black; }
+    #posts article .arrow-down {
+      width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-top: 20px solid black;
+      margin: 0px auto;
+      cursor: pointer; }
+      #posts article .arrow-down:hover {
+        opacity: 0.7; }
