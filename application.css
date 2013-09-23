@@ -538,13 +538,10 @@ table {
   padding: 150px 0px 70px;
   background: white;
   font-size: 20px;
-  text-align: center; }
+  text-align: left; }
   #about p {
     font-size: 16px;
     color: #333333; }
-  #about .location {
-    text-transform: uppercase;
-    font-size: 14px; }
   #about .info {
     margin-top: 26px; }
   #about .name {
@@ -555,7 +552,6 @@ table {
     margin-bottom: 28px; }
   #about .subheading {
     width: 300px;
-    margin: 0px auto;
     margin-bottom: 13px; }
   #about .portrait {
     -webkit-border-radius: 50%;
@@ -567,9 +563,7 @@ table {
     background: white;
     height: 138px;
     width: 138px;
-    overflow: hidden;
-    margin: 0px auto;
-    margin-top: 25px; }
+    overflow: hidden; }
     #about .portrait img {
       width: 150px; }
   #about .ellipsis {
