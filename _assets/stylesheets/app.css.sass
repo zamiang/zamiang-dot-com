@@ -132,12 +132,6 @@ strong
     left: auto
     right: 0px
 
-.sidebar-border-cover
-  top: 52px
-  right: 0
-  z-index: 15
-  height: 50px
-
 .wrapper
   margin: 0px auto
 
@@ -152,10 +146,11 @@ header
   z-index: 11
   background: rgb(253,253,253)
   left: $sidebar-width
-  width: 100%
+  width: calc(100% - 150px)
   border-bottom: 1px solid #e2e2e2
   padding-top: 20px
   color: #ccc
+  text-align: center
   h1
     font-size: 13px
     display: inline-block
@@ -169,6 +164,7 @@ header
     left: -105px
     width: 81px
     text-align: right
+    display: none
     a
       padding: 5px
       display: block

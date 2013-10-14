@@ -1,44 +1,59 @@
 #posts {
   width: 100%;
-  background: white; }
+  background: white;
+  margin-top: 25px; }
   #posts article {
     padding-bottom: 50px;
     padding-top: 50px;
-    position: relative; }
+    position: relative;
+    border-bottom: 1px solid #cccccc; }
     #posts article:last-child {
       padding-bottom: 0px;
       border-bottom: 0px dotted #cccccc; }
     #posts article h1 {
       text-align: left;
       font-weight: normal;
-      line-height: 160%;
-      font-size: 22px;
-      margin-bottom: 11px;
-      display: block; }
+      line-height: 120%;
+      font-size: 30px;
+      margin-bottom: 0px;
+      display: block;
+      letter-spacing: 3px; }
       #posts article h1:before {
         border-bottom: 0px solid; }
     #posts article h2 {
       border-bottom: 2px solid;
-      display: inline-block; }
+      display: inline-block;
+      margin-top: 10px; }
     #posts article p {
       line-height: 170%;
-      font-size: 18px;
-      color: #444444; }
+      font-size: 17px;
+      color: #555555;
+      margin: 0 0 14px; }
+    #posts article p {
+      margin-bottom: 20px; }
+    #posts article p + p {
+      text-indent: 2em;
+      margin-top: -20px; }
+    #posts article blockquote {
+      margin-bottom: 10px; }
+      #posts article blockquote p, #posts article blockquote p + p {
+        margin: 0px; }
     #posts article time {
       display: block;
       color: #cccccc;
-      margin-bottom: 6px; }
+      margin-bottom: 28px; }
     #posts article .content {
-      max-height: 650px;
+      max-height: 647px;
       overflow: hidden;
-      border-bottom: 1px solid black; }
+      border-bottom: 10px solid #eeeeee; }
     #posts article .arrow-down {
       width: 0;
       height: 0;
       border-left: 30px solid transparent;
       border-right: 30px solid transparent;
-      border-top: 20px solid black;
+      border-top: 20px solid #eeeeee;
       margin: 0px auto;
-      cursor: pointer; }
+      cursor: pointer;
+      display: block; }
       #posts article .arrow-down:hover {
         opacity: 0.7; }

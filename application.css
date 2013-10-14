@@ -538,7 +538,7 @@ table {
   padding: 150px 0px 70px;
   background: white;
   font-size: 20px;
-  text-align: left; }
+  text-align: center; }
   #about p {
     font-size: 16px;
     color: #333333; }
@@ -552,6 +552,7 @@ table {
     margin-bottom: 28px; }
   #about .subheading {
     width: 300px;
+    margin: 0px auto;
     margin-bottom: 13px; }
   #about .portrait {
     -webkit-border-radius: 50%;
@@ -563,15 +564,15 @@ table {
     background: white;
     height: 138px;
     width: 138px;
-    overflow: hidden; }
+    overflow: hidden;
+    margin: 0px auto; }
     #about .portrait img {
       width: 150px; }
   #about .ellipsis {
     font-size: 61px;
     color: #dddddd; }
   #about h1 {
-    margin-top: 69px;
-    margin-bottom: 30px; }
+    margin: 69px auto 30px; }
 
 #photos {
   background: #fafafa; }
@@ -583,46 +584,61 @@ table {
 
 #posts {
   width: 100%;
-  background: white; }
+  background: white;
+  margin-top: 25px; }
   #posts article {
     padding-bottom: 50px;
     padding-top: 50px;
-    position: relative; }
+    position: relative;
+    border-bottom: 1px solid #cccccc; }
     #posts article:last-child {
       padding-bottom: 0px;
       border-bottom: 0px dotted #cccccc; }
     #posts article h1 {
       text-align: left;
       font-weight: normal;
-      line-height: 160%;
-      font-size: 22px;
-      margin-bottom: 11px;
-      display: block; }
+      line-height: 120%;
+      font-size: 30px;
+      margin-bottom: 0px;
+      display: block;
+      letter-spacing: 3px; }
       #posts article h1:before {
         border-bottom: 0px solid; }
     #posts article h2 {
       border-bottom: 2px solid;
-      display: inline-block; }
+      display: inline-block;
+      margin-top: 10px; }
     #posts article p {
       line-height: 170%;
-      font-size: 18px;
-      color: #444444; }
+      font-size: 17px;
+      color: #555555;
+      margin: 0 0 14px; }
+    #posts article p {
+      margin-bottom: 20px; }
+    #posts article p + p {
+      text-indent: 2em;
+      margin-top: -20px; }
+    #posts article blockquote {
+      margin-bottom: 10px; }
+      #posts article blockquote p, #posts article blockquote p + p {
+        margin: 0px; }
     #posts article time {
       display: block;
       color: #cccccc;
-      margin-bottom: 6px; }
+      margin-bottom: 28px; }
     #posts article .content {
-      max-height: 650px;
+      max-height: 647px;
       overflow: hidden;
-      border-bottom: 1px solid black; }
+      border-bottom: 10px solid #eeeeee; }
     #posts article .arrow-down {
       width: 0;
       height: 0;
       border-left: 30px solid transparent;
       border-right: 30px solid transparent;
-      border-top: 20px solid black;
+      border-top: 20px solid #eeeeee;
       margin: 0px auto;
-      cursor: pointer; }
+      cursor: pointer;
+      display: block; }
       #posts article .arrow-down:hover {
         opacity: 0.7; }
 
@@ -793,7 +809,7 @@ strong {
   font-weight: 700; }
 
 .sidebar {
-  width: 259px;
+  width: 75px;
   position: fixed;
   background: #fdfdfd; }
 
@@ -811,12 +827,6 @@ strong {
     left: auto;
     right: 0px; }
 
-.sidebar-border-cover {
-  top: 52px;
-  right: 0;
-  z-index: 15;
-  height: 50px; }
-
 .wrapper {
   margin: 0px auto; }
 
@@ -830,11 +840,12 @@ header {
   text-align: left;
   z-index: 11;
   background: #fdfdfd;
-  left: 259px;
-  width: 100%;
+  left: 75px;
+  width: calc(100% - 150px);
   border-bottom: 1px solid #e2e2e2;
   padding-top: 20px;
-  color: #cccccc; }
+  color: #cccccc;
+  text-align: center; }
   header h1 {
     font-size: 13px;
     display: inline-block;
@@ -847,7 +858,8 @@ header {
     top: 58px;
     left: -105px;
     width: 81px;
-    text-align: right; }
+    text-align: right;
+    display: none; }
     header .links a {
       padding: 5px;
       display: block;
@@ -1024,60 +1036,6 @@ section {
 .type-csharp .highlight .s { color: #A31515 }
 .type-csharp .highlight .sc { color: #A31515 }
 
-@media (max-width: 2800px) {
-  .sidebar, .sidebar-border-cover {
-    width: 600px; }
-
-  header {
-    left: 600px; } }
-@media (max-width: 2000px) {
-  .sidebar, .sidebar-border-cover {
-    width: 525px; }
-
-  header {
-    left: 525px; } }
-@media (max-width: 1800px) {
-  .sidebar, .sidebar-border-cover {
-    width: 475px; }
-
-  header {
-    left: 475px; } }
-@media (max-width: 1600px) {
-  .sidebar, .sidebar-border-cover {
-    width: 350px; }
-
-  header {
-    left: 350px; } }
-@media (max-width: 1400px) {
-  .sidebar, .sidebar-border-cover {
-    width: 300px; }
-
-  header {
-    left: 300px; } }
-@media (max-width: 1250px) {
-  .sidebar, .sidebar-border-cover {
-    width: 200px; }
-
-  header {
-    left: 200px; } }
-@media (max-width: 1100px) {
-  .sidebar, .sidebar-border-cover {
-    width: 150px; }
-
-  header {
-    left: 150px; } }
-@media (max-width: 1000px) {
-  .sidebar, .sidebar-border-cover {
-    width: 100px; }
-
-  header {
-    left: 100px; } }
-@media (max-width: 900px) {
-  .sidebar, .sidebar-border-cover {
-    width: 50px; }
-
-  header {
-    left: 50px; } }
 @media (max-width: 800px) {
   .sidebar, .sidebar-border-cover {
     width: 25px; }

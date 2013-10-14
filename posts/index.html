@@ -9,10 +9,10 @@ category: posts
     {% for post in site.posts do %}
     {% if post.category == 'post' %}
     <article>
-      <a href="{{ post.url }}"><time datetime="{{ post.date }}" pubdate="">{{ post.date | date: "%d &middot; %m &middot; %y" }}</time></a>
       <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      <a href="{{ post.url }}"><time datetime="{{ post.date }}" pubdate="">{{ post.date | date: "%d &middot; %m &middot; %y" }}</time></a>
       <div class="content">{{ post.content }}</div>
-      <div class="arrow-down"></div>
+      <a href="{{ post.url }}" class="arrow-down"></a>
     </article>
     {% endif %}
     {% endfor %}

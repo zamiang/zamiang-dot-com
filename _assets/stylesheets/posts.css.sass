@@ -3,44 +3,59 @@
 #posts
   width: 100%
   background: #fff
+  margin-top: 25px
   article
     padding-bottom: 50px
     padding-top: 50px
     position: relative
+    border-bottom: 1px solid #ccc
     &:last-child
       padding-bottom: 0px
       border-bottom: 0px dotted #ccc
     h1
       text-align: left
       font-weight: normal
-      line-height: 160%
-      font-size: 22px
-      margin-bottom: 11px
+      line-height: 120%
+      font-size: 30px
+      margin-bottom: 0px
       display: block
+      letter-spacing: 3px
       &:before
         border-bottom: 0px solid
     h2
       border-bottom: 2px solid
       display: inline-block
+      margin-top: 10px
     p
       line-height: 170%
-      font-size: 18px
-      color: #444
+      font-size: 17px
+      color: #555
+      margin: 0 0 14px
+    p
+      margin-bottom: 20px
+    p+p
+      text-indent: 2em
+      margin-top: -20px
+    blockquote
+      margin-bottom: 10px
+      p, p+p
+        margin: 0px
     time
       display: block
       color: #ccc
-      margin-bottom: 6px
+      margin-bottom: 28px
     .content
-      max-height: 650px
+      max-height: 647px
       overflow: hidden
-      border-bottom: 1px solid black
+      border-bottom: 10px solid #eee
     .arrow-down
       width: 0
       height: 0
       border-left: 30px solid transparent
       border-right: 30px solid transparent
-      border-top: 20px solid black
+      border-top: 20px solid #eee
       margin: 0px auto
       cursor: pointer
+      display: block
       &:hover
         opacity: 0.7

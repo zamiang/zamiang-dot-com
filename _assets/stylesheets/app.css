@@ -108,7 +108,7 @@ strong {
   font-weight: 700; }
 
 .sidebar {
-  width: 259px;
+  width: 75px;
   position: fixed;
   background: #fdfdfd; }
 
@@ -126,12 +126,6 @@ strong {
     left: auto;
     right: 0px; }
 
-.sidebar-border-cover {
-  top: 52px;
-  right: 0;
-  z-index: 15;
-  height: 50px; }
-
 .wrapper {
   margin: 0px auto; }
 
@@ -145,11 +139,12 @@ header {
   text-align: left;
   z-index: 11;
   background: #fdfdfd;
-  left: 259px;
-  width: 100%;
+  left: 75px;
+  width: calc(100% - 150px);
   border-bottom: 1px solid #e2e2e2;
   padding-top: 20px;
-  color: #cccccc; }
+  color: #cccccc;
+  text-align: center; }
   header h1 {
     font-size: 13px;
     display: inline-block;
@@ -162,7 +157,8 @@ header {
     top: 58px;
     left: -105px;
     width: 81px;
-    text-align: right; }
+    text-align: right;
+    display: none; }
     header .links a {
       padding: 5px;
       display: block;
