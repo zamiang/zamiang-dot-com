@@ -614,7 +614,7 @@ table {
       color: #555555;
       margin: 0 0 14px; }
     #posts article p {
-      margin-bottom: 20px; }
+      margin-bottom: 24px; }
     #posts article p + p {
       text-indent: 2em;
       margin-top: -20px; }
@@ -849,7 +849,6 @@ header {
   header h1 {
     font-size: 13px;
     display: inline-block;
-    margin-right: 21px;
     margin-bottom: 25px; }
     header h1:before {
       border-bottom: 1px solid #333333; }
@@ -1041,18 +1040,19 @@ section {
     width: 25px; }
 
   header {
-    left: 25px; } }
+    left: 25px;
+    width: calc(100% - 50px); } }
 @media (max-width: 700px) {
   .sidebar, .sidebar-border-cover {
     display: none; }
 
-  header {
-    left: 0px;
-    padding-left: 25px; }
-
   .content {
     width: auto;
     margin: 0px 25px; }
+
+  header {
+    left: 0px;
+    width: 100%; }
 
   #about {
     padding: 70px 0px; }

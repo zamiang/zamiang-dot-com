@@ -3,18 +3,19 @@
     width: 25px; }
 
   header {
-    left: 25px; } }
+    left: 25px;
+    width: calc(100% - 50px); } }
 @media (max-width: 700px) {
   .sidebar, .sidebar-border-cover {
     display: none; }
 
-  header {
-    left: 0px;
-    padding-left: 25px; }
-
   .content {
     width: auto;
     margin: 0px 25px; }
+
+  header {
+    left: 0px;
+    width: 100%; }
 
   #about {
     padding: 70px 0px; }
