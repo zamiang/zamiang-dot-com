@@ -13,6 +13,9 @@
     width: auto;
     margin: 0px 25px; }
 
+  #article .content {
+    margin: 0px 0px; }
+
   header {
     left: 0px;
     width: 100%; }
@@ -30,4 +33,7 @@
     text-align: left; }
 
   .project p {
+    margin-left: 0px; }
+
+  .project .description {
     margin-left: 0px; } }

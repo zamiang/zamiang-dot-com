@@ -570,9 +570,17 @@ table {
       width: 150px; }
   #about .ellipsis {
     font-size: 61px;
-    color: #dddddd; }
+    color: #dddddd;
+    line-height: 126%;
+    margin-top: -21px; }
   #about h1 {
     margin: 69px auto 30px; }
+  #about .links {
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: "franklin-gothic-urw", sans-serif; }
 
 #photos {
   background: #fafafa; }
@@ -589,8 +597,7 @@ table {
   #posts article {
     padding-bottom: 50px;
     padding-top: 50px;
-    position: relative;
-    border-bottom: 1px solid #cccccc; }
+    position: relative; }
     #posts article:last-child {
       padding-bottom: 0px;
       border-bottom: 0px dotted #cccccc; }
@@ -598,8 +605,8 @@ table {
       text-align: left;
       font-weight: normal;
       line-height: 120%;
-      font-size: 30px;
-      margin-bottom: 0px;
+      font-size: 28px;
+      margin-bottom: 10px;
       display: block;
       letter-spacing: 3px; }
       #posts article h1:before {
@@ -619,17 +626,18 @@ table {
       text-indent: 2em;
       margin-top: -20px; }
     #posts article blockquote {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      margin-right: 0px; }
       #posts article blockquote p, #posts article blockquote p + p {
         margin: 0px; }
     #posts article time {
       display: block;
-      color: #cccccc;
-      margin-bottom: 28px; }
+      color: #cccccc; }
     #posts article .content {
       max-height: 647px;
       overflow: hidden;
-      border-bottom: 10px solid #eeeeee; }
+      border-bottom: 1px solid #eeeeee;
+      margin: 0px 0px; }
     #posts article .arrow-down {
       width: 0;
       height: 0;
@@ -1050,6 +1058,9 @@ section {
     width: auto;
     margin: 0px 25px; }
 
+  #article .content {
+    margin: 0px 0px; }
+
   header {
     left: 0px;
     width: 100%; }
@@ -1067,4 +1078,7 @@ section {
     text-align: left; }
 
   .project p {
+    margin-left: 0px; }
+
+  .project .description {
     margin-left: 0px; } }
