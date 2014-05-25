@@ -25,27 +25,29 @@ bigger problems).
 We have high level programming languages, why not give people
 high-level job titles?
 
+***
+
 Here are a couple of examples of 'high-level' job titles that come to
 mind:
 
-__Tooler__: building tools to make the jobs people more effective at what
+- __Tooler__: building tools to make the jobs people more effective at what
 they do. This spans the the whole company. You just really love using
 technology to make people's jobs more efficient.
 
-__Growth-hacker__: while this title is certainly 'in vogue', it is a
+- __Growth-hacker__: while this title is certainly 'in vogue', it is a
 perfect example of a high-level job title. Your job spans product and
 engineering, you do whatever it takes to encourage 'growth', however
 that is defined for your project.
 
-__User focused__: people who love buildings stuff that people use. I'd
+- __User focused__: people who love buildings stuff that people use. I'd
 probably fall in to this category, basically you are someone who will
 do whatever it takes to get a great product in front of the people.
 
-__The academic__, some people love correctness and broad sweeping design
+- __The academic__, some people love correctness and broad sweeping design
 patterns. These are the people who love designing frameworks and APIs
 for other engineers to work with.
 
-__The tuner__, you love making stuff fast. Performance is a very important
+- __The tuner__, you love making stuff fast. Performance is a very important
 feature with 'on the go', mobile lifestyles and the global
 marketplace. Whatever the task, you want to make sure it doesn't take
 very long.
