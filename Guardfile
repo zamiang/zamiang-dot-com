@@ -8,7 +8,7 @@ end
 
 # compile COFFEE
 # guard 'coffeescript', :input => '_assets/javascripts'
-# guard :concat, type: "js", files: %w(jquery app), input_dir: "_assets/javascripts", output: "application"
-# guard 'process', :name => 'Minify application javascript', :command => 'juicer merge application.js --force -s' do
-#   watch %r{application\.js}
-# end
+guard :concat, type: "js", files: %w(app), input_dir: "_assets/javascripts", output: "application"
+guard 'process', :name => 'Minify application javascript', :command => 'juicer merge application.js --force -s' do
+  watch %r{application\.js}
+end

@@ -20,7 +20,6 @@
       #posts article h1:before {
         border-bottom: 0px solid; }
     #posts article h2 {
-      border-bottom: 2px solid;
       display: inline-block;
       margin-top: 10px; }
     #posts article p {

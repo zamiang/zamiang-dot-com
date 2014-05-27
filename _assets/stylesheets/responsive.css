@@ -22,6 +22,10 @@
 
   #about {
     padding: 70px 0px; }
+    #about .subheading {
+      width: 100%; }
+    #about .portrait {
+      margin-top: 30px; }
 
   #photos img {
     width: auto; }
@@ -31,9 +35,5 @@
 
   .project h2, .project h2 a {
     text-align: left; }
-
-  .project p {
-    margin-left: 0px; }
-
-  .project .description {
+  .project p, .project .description {
     margin-left: 0px; } }

@@ -18,7 +18,7 @@ These quotes are all pretty useless. This blog post is about some
 little platitudes that have taken on some real meaning for me through
 experience and now provide a framework for future projects.
 
-## Build something you can make time for
+## Build something you can devote time to
 
 Once, I started fundraising for a project. Due to many factors, we
 launched a project before we were ready and fundraising failed. We had
