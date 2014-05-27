@@ -613,7 +613,8 @@ table {
         border-bottom: 0px solid; }
     #posts article h2 {
       display: inline-block;
-      margin-top: 10px; }
+      margin-top: 10px;
+      margin-bottom: 10px; }
     #posts article p {
       line-height: 170%;
       font-size: 17px;
@@ -1062,9 +1063,6 @@ section {
 
   #photos img {
     width: auto; }
-
-  header a:last-child {
-    display: none; }
 
   .project h2, .project h2 a {
     text-align: left; }

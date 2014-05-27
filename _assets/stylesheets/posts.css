@@ -21,7 +21,8 @@
         border-bottom: 0px solid; }
     #posts article h2 {
       display: inline-block;
-      margin-top: 10px; }
+      margin-top: 10px;
+      margin-bottom: 10px; }
     #posts article p {
       line-height: 170%;
       font-size: 17px;
