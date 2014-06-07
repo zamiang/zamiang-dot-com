@@ -27,10 +27,20 @@
     #about .portrait {
       margin-top: 30px; }
 
+  #posts .author .subheading {
+    width: 100%; }
+
   #photos img {
     width: auto; }
 
-  .project h2, .project h2 a {
-    text-align: left; }
-  .project p, .project .description {
-    margin-left: 0px; } }
+  .project {
+    width: 100%; }
+    .project h2, .project h2 a {
+      text-align: left; }
+    .project p, .project .description {
+      margin-left: 0px; }
+
+  #publications {
+    padding-top: 0px; }
+    #publications .publication {
+      padding-right: 0px; } }

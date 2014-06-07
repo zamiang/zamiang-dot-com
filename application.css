@@ -586,14 +586,6 @@ table {
     #about .portrait img, #posts .author .portrait img {
       width: 150px; }
 
-#photos {
-  background: #fafafa; }
-  #photos:after {
-    border-bottom-color: #fafafa; }
-  #photos img {
-    display: inline-block;
-    margin-bottom: -5px; }
-
 #posts {
   width: 100%;
   background: white;
@@ -644,7 +636,7 @@ table {
     #posts article .content {
       max-height: 440px;
       overflow: hidden;
-      border-bottom: 3px solid black;
+      border-bottom: 1px solid #e2e2e2;
       margin: 0px 0px 34px;
       transition: all 0.3s ease;
       position: relative; }
@@ -1060,10 +1052,20 @@ section {
     #about .portrait {
       margin-top: 30px; }
 
+  #posts .author .subheading {
+    width: 100%; }
+
   #photos img {
     width: auto; }
 
-  .project h2, .project h2 a {
-    text-align: left; }
-  .project p, .project .description {
-    margin-left: 0px; } }
+  .project {
+    width: 100%; }
+    .project h2, .project h2 a {
+      text-align: left; }
+    .project p, .project .description {
+      margin-left: 0px; }
+
+  #publications {
+    padding-top: 0px; }
+    #publications .publication {
+      padding-right: 0px; } }

@@ -1,6 +1,6 @@
 # compile SASS
 guard 'sass', :input => '_assets/stylesheets', :compass => true
-guard :concat, type: "css", files: %w(normalize about photos posts projects publications app pygment_trac responsive), input_dir: "_assets/stylesheets", output: "application"
+guard :concat, type: "css", files: %w(normalize about posts projects publications app pygment_trac responsive), input_dir: "_assets/stylesheets", output: "application"
 
 guard 'process', :name => 'Minify CSS', :command => 'juicer merge application.css --force -c none' do
   watch %r{application\.css}

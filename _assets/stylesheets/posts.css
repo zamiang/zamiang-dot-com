@@ -48,7 +48,7 @@
     #posts article .content {
       max-height: 440px;
       overflow: hidden;
-      border-bottom: 3px solid black;
+      border-bottom: 1px solid #e2e2e2;
       margin: 0px 0px 34px;
       transition: all 0.3s ease;
       position: relative; }
