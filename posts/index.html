@@ -10,8 +10,9 @@ category: posts
     {% if post.category == 'post' %}
     <article>
       <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-      <div class="content">{{ post.content }}</div>
-      <a href="{{ post.url }}" class="arrow-down"></a>
+      <div class="content">
+        {{ post.content }}
+      </div>
     </article>
     {% endif %}
     {% endfor %}

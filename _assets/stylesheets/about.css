@@ -3,23 +3,41 @@
   overflow: hidden;
   padding: 125px 0px 70px;
   background: white;
-  font-size: 20px;
-  text-align: center; }
+  font-size: 20px; }
   #about p {
     color: #333333; }
-  #about .info {
+
+#about, #posts .author {
+  text-align: center;
+  width: 100%; }
+  #about .info, #posts .author .info {
     margin-top: 26px; }
-  #about .name {
+  #about .name, #posts .author .name {
     font-size: 28px;
     text-align: center;
     letter-spacing: 2px;
     color: #333333;
-    margin-bottom: 28px; }
-  #about .subheading {
+    margin-bottom: 28px;
+    font-family: "franklin-gothic-urw", sans-serif;
+    line-height: 148%;
+    font-weight: normal; }
+  #about .subheading, #posts .author .subheading {
     width: 362px;
     margin: 0px auto;
     margin-bottom: 21px; }
-  #about .portrait {
+  #about .ellipsis, #posts .author .ellipsis {
+    font-size: 61px;
+    color: #dddddd;
+    line-height: 126%;
+    margin-top: -21px; }
+  #about h1, #posts .author h1 {
+    margin: 69px auto 30px; }
+  #about .links, #posts .author .links {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: "franklin-gothic-urw", sans-serif; }
+  #about .portrait, #posts .author .portrait {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -31,18 +49,5 @@
     width: 138px;
     overflow: hidden;
     margin: 0px auto; }
-    #about .portrait img {
+    #about .portrait img, #posts .author .portrait img {
       width: 150px; }
-  #about .ellipsis {
-    font-size: 61px;
-    color: #dddddd;
-    line-height: 126%;
-    margin-top: -21px; }
-  #about h1 {
-    margin: 69px auto 30px; }
-  #about .links {
-    font-size: 13px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    font-family: "franklin-gothic-urw", sans-serif; }
