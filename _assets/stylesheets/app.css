@@ -2,8 +2,8 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "adobe-garamond-pro", sans-serif;
-  font-size: 16px;
-  line-height: 170%;
+  font-size: 20px;
+  line-height: 164%;
   color: white;
   background: #eeeeee; }
 
@@ -45,7 +45,7 @@ h1, h2, #about .name {
 
 h1 {
   font-size: 28px;
-  text-transform: uppercase;
+  /* text-transform: uppercase */
   text-align: center;
   letter-spacing: 2px; }
 
@@ -130,7 +130,7 @@ strong {
   margin: 0px auto; }
 
 .content {
-  width: 600px;
+  width: 700px;
   margin: 0px auto; }
 
 header {

@@ -540,7 +540,6 @@ table {
   font-size: 20px;
   text-align: center; }
   #about p {
-    font-size: 16px;
     color: #333333; }
   #about .info {
     margin-top: 26px; }
@@ -551,9 +550,9 @@ table {
     color: #333333;
     margin-bottom: 28px; }
   #about .subheading {
-    width: 300px;
+    width: 362px;
     margin: 0px auto;
-    margin-bottom: 13px; }
+    margin-bottom: 21px; }
   #about .portrait {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -597,7 +596,9 @@ table {
   #posts article {
     padding-bottom: 50px;
     padding-top: 50px;
-    position: relative; }
+    position: relative;
+    font-size: 20px;
+    line-height: 164%; }
     #posts article:last-child {
       padding-bottom: 0px;
       border-bottom: 0px dotted #cccccc; }
@@ -605,8 +606,8 @@ table {
       text-align: left;
       font-weight: normal;
       line-height: 120%;
-      font-size: 28px;
-      margin-bottom: 10px;
+      font-size: 38px;
+      margin-bottom: 13px;
       display: block;
       letter-spacing: 3px; }
       #posts article h1:before {
@@ -616,34 +617,27 @@ table {
       margin-top: 10px;
       margin-bottom: 10px; }
     #posts article p {
-      line-height: 170%;
-      font-size: 17px;
       color: #555555;
       margin: 0 0 14px; }
     #posts article p {
       margin-bottom: 24px; }
-    #posts article p + p {
-      text-indent: 2em;
-      margin-top: -20px; }
     #posts article blockquote {
       margin-bottom: 10px;
       margin-right: 0px; }
-      #posts article blockquote p, #posts article blockquote p + p {
-        margin: 0px; }
     #posts article time {
       display: block;
       color: #cccccc; }
     #posts article .content {
-      max-height: 647px;
+      max-height: 440px;
       overflow: hidden;
-      border-bottom: 1px solid #eeeeee;
+      border-bottom: 3px solid black;
       margin: 0px 0px; }
     #posts article .arrow-down {
       width: 0;
       height: 0;
       border-left: 30px solid transparent;
       border-right: 30px solid transparent;
-      border-top: 20px solid #eeeeee;
+      border-top: 20px solid black;
       margin: 0px auto;
       cursor: pointer;
       display: block; }
@@ -654,6 +648,8 @@ table {
   position: relative;
   border-bottom: 1px dotted #dbdbdb;
   padding: 30px 0px;
+  margin: 0px auto;
+  width: 600px;
   overflow: hidden;
   *zoom: 1;
   text-align: left; }
@@ -663,15 +659,13 @@ table {
     width: 91px; }
   .project h2, .project h2 a {
     color: #444444;
-    display: inline-block;
-    font-size: 17px; }
+    display: inline-block; }
   .project .description {
     display: inline-block;
     vertical-align: top;
     font-weight: normal;
     width: 444px;
-    margin-left: 32px;
-    font-size: 17px; }
+    margin-left: 32px; }
 
 #publications {
   background: white; }
@@ -711,8 +705,8 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "adobe-garamond-pro", sans-serif;
-  font-size: 16px;
-  line-height: 170%;
+  font-size: 20px;
+  line-height: 164%;
   color: white;
   background: #eeeeee; }
 
@@ -754,7 +748,7 @@ h1, h2, #about .name {
 
 h1 {
   font-size: 28px;
-  text-transform: uppercase;
+  /* text-transform: uppercase */
   text-align: center;
   letter-spacing: 2px; }
 
@@ -839,7 +833,7 @@ strong {
   margin: 0px auto; }
 
 .content {
-  width: 600px;
+  width: 700px;
   margin: 0px auto; }
 
 header {

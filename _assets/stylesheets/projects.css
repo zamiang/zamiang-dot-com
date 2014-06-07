@@ -2,6 +2,8 @@
   position: relative;
   border-bottom: 1px dotted #dbdbdb;
   padding: 30px 0px;
+  margin: 0px auto;
+  width: 600px;
   overflow: hidden;
   *zoom: 1;
   text-align: left; }
@@ -11,12 +13,10 @@
     width: 91px; }
   .project h2, .project h2 a {
     color: #444444;
-    display: inline-block;
-    font-size: 17px; }
+    display: inline-block; }
   .project .description {
     display: inline-block;
     vertical-align: top;
     font-weight: normal;
     width: 444px;
-    margin-left: 32px;
-    font-size: 17px; }
+    margin-left: 32px; }
