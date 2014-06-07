@@ -7,7 +7,7 @@ title: Brennan Moore
   <div class="content">
     <div class="clearfix">
       <div class="portrait">
-        <img src="http://secure.gravatar.com/avatar/ed442a2cfbe84d5bf40e09c58ba80b5f?size=200">
+        <img src="http://secure.gravatar.com/avatar/ed442a2cfbe84d5bf40e09c58ba80b5f?size=200" />
       </div>
       <div class="info">
         <p class="name faux-underline-large">Brennan Moore</p>
@@ -22,7 +22,7 @@ title: Brennan Moore
         <p class="ellipsis">&hellip;</p>
       </div>
     </div>
-    <h1>projects</h1>
+    <h1>Projects</h1>
     {% for post in site.posts do %}
     {% if post.category == 'project' %}
     <div class="project">
@@ -40,25 +40,10 @@ title: Brennan Moore
   </div>
 </section>
 
-<!--
-<section id="photos">
-  <div class="content">
-    <h1>photos</h1>
-    <br />
-    <br />
-    {% for post in site.posts do %}
-    {% if post.category == 'photo' %}
-    <img src="{{ post.src }}" />
-    {% endif %}
-    {% endfor %}
-  </div>
-</section>
--->
-
 <section id="publications">
   <div class="content">
     <center>
-      <h1>publications</h1>
+      <h1>Publications</h1>
     </center>
     {% for post in site.posts do %}
     {% if post.category == 'publication' %}

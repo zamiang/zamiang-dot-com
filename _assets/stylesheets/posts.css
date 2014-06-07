@@ -40,15 +40,16 @@
       max-height: 440px;
       overflow: hidden;
       border-bottom: 3px solid black;
-      margin: 0px 0px; }
+      margin: 0px 0px;
+      transition: all 0.3s ease; }
+      #posts article .content:hover {
+        max-height: 460px; }
     #posts article .arrow-down {
       width: 0;
       height: 0;
-      border-left: 30px solid transparent;
-      border-right: 30px solid transparent;
-      border-top: 20px solid black;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 12px solid black;
       margin: 0px auto;
       cursor: pointer;
       display: block; }
-      #posts article .arrow-down:hover {
-        opacity: 0.7; }
