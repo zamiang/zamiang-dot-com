@@ -107,25 +107,6 @@ img {
 strong {
   font-weight: 700; }
 
-.sidebar {
-  width: 75px;
-  position: fixed;
-  background: #fdfdfd; }
-
-.sidebar {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: auto;
-  min-height: 690px;
-  z-index: 3;
-  border-right: 1px solid #e2e2e2; }
-  .sidebar.right {
-    border-right: 0px solid #e2e2e2;
-    border-left: 1px solid #e2e2e2;
-    left: auto;
-    right: 0px; }
-
 .wrapper {
   margin: 0px auto; }
 
@@ -139,8 +120,7 @@ header {
   text-align: left;
   z-index: 11;
   background: #fdfdfd;
-  left: 75px;
-  width: calc(100% - 150px);
+  width: 100%;
   border-bottom: 1px solid #e2e2e2;
   padding-top: 20px;
   color: #cccccc;

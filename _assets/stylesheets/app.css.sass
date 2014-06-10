@@ -112,25 +112,6 @@ img
 strong
   font-weight: 700
 
-.sidebar
-  width: $sidebar-width
-  position: fixed
-  background: rgb(253,253,253)
-
-.sidebar
-  top: 0
-  left: 0
-  bottom: 0
-  right: auto
-  min-height: 690px
-  z-index: 3
-  border-right: 1px solid #e2e2e2
-  &.right
-    border-right: 0px solid #e2e2e2
-    border-left: 1px solid #e2e2e2
-    left: auto
-    right: 0px
-
 .wrapper
   margin: 0px auto
 
@@ -144,8 +125,7 @@ header
   text-align: left
   z-index: 11
   background: rgb(253,253,253)
-  left: $sidebar-width
-  width: calc(100% - 150px)
+  width: 100%
   border-bottom: 1px solid #e2e2e2
   padding-top: 20px
   color: #ccc

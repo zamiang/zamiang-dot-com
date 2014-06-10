@@ -1,14 +1,8 @@
 @media (max-width: 800px) {
-  .sidebar, .sidebar-border-cover {
-    width: 25px; }
-
   header {
     left: 25px;
     width: calc(100% - 50px); } }
 @media (max-width: 700px) {
-  .sidebar, .sidebar-border-cover {
-    display: none; }
-
   .content {
     width: auto;
     margin: 0px 25px; }
