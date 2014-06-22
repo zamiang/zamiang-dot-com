@@ -25,15 +25,14 @@
       font-weight: normal;
       line-height: 120%;
       font-size: 38px;
-      margin-bottom: 13px;
+      margin-bottom: 10px;
       display: block;
-      letter-spacing: 3px; }
+      letter-spacing: 2px; }
       #posts article h1:before {
         border-bottom: 0px solid; }
     #posts article h2 {
-      display: inline-block;
-      margin-top: 10px;
-      margin-bottom: 10px; }
+      display: block;
+      margin-top: 10px; }
     #posts article p {
       color: #555555;
       margin: 0 0 14px; }

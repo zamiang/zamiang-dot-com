@@ -36,7 +36,8 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
-    font-family: "franklin-gothic-urw", sans-serif; }
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-size: 16px; }
   #about .portrait, #posts .author .portrait {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

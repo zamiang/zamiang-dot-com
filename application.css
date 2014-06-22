@@ -570,7 +570,8 @@ table {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
-    font-family: "franklin-gothic-urw", sans-serif; }
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-size: 16px; }
   #about .portrait, #posts .author .portrait {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -613,15 +614,14 @@ table {
       font-weight: normal;
       line-height: 120%;
       font-size: 38px;
-      margin-bottom: 13px;
+      margin-bottom: 10px;
       display: block;
-      letter-spacing: 3px; }
+      letter-spacing: 2px; }
       #posts article h1:before {
         border-bottom: 0px solid; }
     #posts article h2 {
-      display: inline-block;
-      margin-top: 10px;
-      margin-bottom: 10px; }
+      display: block;
+      margin-top: 10px; }
     #posts article p {
       color: #555555;
       margin: 0 0 14px; }
@@ -898,11 +898,11 @@ section {
     border-bottom: 1px solid #777777;
     color: #505050; }
 
-.faux-underline-large, h1 {
+.faux-underline-large {
   display: inline-block;
   position: relative;
   text-decoration: none; }
-.faux-underline-large:before, h1:before {
+.faux-underline-large:before {
   content: "";
   position: absolute;
   left: 0;
@@ -912,7 +912,7 @@ section {
   margin-top: 0.4em;
   border-bottom: 2px solid #333333;
   color: #505050; }
-.faux-underline-large:hover, h1:hover {
+.faux-underline-large:hover {
   text-decoration: none; }
 
 .content > h1:before {

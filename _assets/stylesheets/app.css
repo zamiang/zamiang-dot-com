@@ -198,11 +198,11 @@ section {
     border-bottom: 1px solid #777777;
     color: #505050; }
 
-.faux-underline-large, h1 {
+.faux-underline-large {
   display: inline-block;
   position: relative;
   text-decoration: none; }
-.faux-underline-large:before, h1:before {
+.faux-underline-large:before {
   content: "";
   position: absolute;
   left: 0;
@@ -212,7 +212,7 @@ section {
   margin-top: 0.4em;
   border-bottom: 2px solid #333333;
   color: #505050; }
-.faux-underline-large:hover, h1:hover {
+.faux-underline-large:hover {
   text-decoration: none; }
 
 .content > h1:before {
