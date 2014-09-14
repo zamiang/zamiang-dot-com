@@ -46,9 +46,29 @@
       display: block;
       color: #cccccc; }
     #posts article .content {
-      max-height: 440px;
+      max-height: 457px;
       overflow: hidden;
       border-bottom: 1px solid #e2e2e2;
       margin: 0px 0px 34px;
       transition: all 0.3s ease;
       position: relative; }
+    #posts article .more-link {
+      font-family: "franklin-gothic-urw", sans-serif;
+      position: absolute;
+      right: -63px;
+      bottom: -14px;
+      color: #cccccc;
+      font-size: 16px;
+      letter-spacing: 1px;
+      transition: all 0.3s ease; }
+      #posts article .more-link:hover {
+        color: #3399cc; }
+        #posts article .more-link:hover .caret-right {
+          color: #3399cc; }
+    #posts article .caret-right {
+      transition: all 0.3s ease;
+      color: #e2e2e2;
+      font-size: 38px;
+      vertical-align: top;
+      margin-top: -3px;
+      display: inline-block; }

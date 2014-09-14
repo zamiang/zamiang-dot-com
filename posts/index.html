@@ -13,6 +13,10 @@ category: posts
       <div class="content">
         {{ post.content }}
       </div>
+      <a class="more-link" href="{{ post.url }}">
+        More
+        <span class="caret-right">&rsaquo;</span>
+      </a>
     </article>
     {% endif %}
     {% endfor %}

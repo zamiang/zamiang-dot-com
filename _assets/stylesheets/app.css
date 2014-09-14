@@ -126,13 +126,16 @@ header {
   color: #cccccc;
   text-align: center;
   transition: all 0.2s ease-in-out;
-  height: 50px; }
+  height: 43px; }
   header.small {
     padding-top: 10px;
-    height: 38px; }
+    height: 29px; }
+    header.small h1 {
+      font-size: 13px; }
   header h1 {
-    font-size: 13px;
-    display: inline-block; }
+    font-size: 16px;
+    margin: 0px;
+    transition: all 0.2s ease-in-out; }
     header h1:before {
       border-bottom: 1px solid #333333; }
 
