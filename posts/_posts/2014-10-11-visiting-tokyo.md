@@ -62,7 +62,7 @@ interesting experiences, a bars seem to just push to some extreme of
 and then went to a bar where buying a drink allows you to pick the
 next song - a drunkards dream jukebox.
 
-![Day drinking](https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xfa1/10616753_754068264655469_2019314536_n.jpg)
+![Day drinking](/assets/images/IMG_3425.jpg)
 
 Public drinking is generally ok in Asia. One of my favorite moments
 from the trip was on a 9am train to Hakone, we sat next to a group of
@@ -103,7 +103,7 @@ only. Ramen machines take cash and dispense yet another piece of
 paper! These days it would be trivial to have an integrated paperless
 system. Absurd.
 
-![Ginza](https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/10707207_1493105810938146_213060239_n.jpg)
+![Ginza](/assets/images/IMG_3427.jpg)
 
 # Basic travel tips
 - Get a MiFi from the airport. About $20 a day from one of the cell stations
@@ -120,4 +120,6 @@ Restaurant reviews
 Favorite places: https://foursquare.com/zamiang/list/tokyo-2014
 Look up restaurants on Tabelog and look at the ratings http://tabelog.com/tokyo/
 
-Other lists
+Have fun!
+
+![Great Hair](/assets/images/IMG_3423.jpg)

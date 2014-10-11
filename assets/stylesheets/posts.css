@@ -31,9 +31,7 @@
       #posts article h1:before {
         border-bottom: 0px solid; }
     #posts article img {
-      width: 100%;
-      margin-top: -20px;
-      margin-bottom: -20px; }
+      width: 100%; }
     #posts article h2 {
       display: block;
       margin-top: 10px;
