@@ -1,8 +1,8 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlighter: pygments
 
-title: Mah Homepage
-tagline: tagggggggline
+title: Brennan Moore
+tagline: Building build web applications to help people go about their day in a more awesome way.
 author:
   name: Brennan Moore
   email: brennanmoore@gmail.com
@@ -19,8 +19,6 @@ assets:
   compress:
     js:   yui
     css:  sass
-
-pygments: true
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 JB:
