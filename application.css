@@ -536,10 +536,10 @@ table {
   width: 100%;
   overflow: hidden;
   padding: 125px 0px 70px;
-  background: white;
+  background: #fff;
   font-size: 20px; }
   #about p {
-    color: #333333; }
+    color: #333; }
 
 #about, #posts .author {
   text-align: center;
@@ -550,7 +550,7 @@ table {
     font-size: 28px;
     text-align: center;
     letter-spacing: 2px;
-    color: #333333;
+    color: #333;
     margin-bottom: 28px;
     font-family: "franklin-gothic-urw", sans-serif;
     line-height: 148%;
@@ -561,7 +561,7 @@ table {
     margin-bottom: 21px; }
   #about .ellipsis, #posts .author .ellipsis {
     font-size: 61px;
-    color: #dddddd;
+    color: #DDD;
     line-height: 126%;
     margin-top: -21px; }
   #about h1, #posts .author h1 {
@@ -573,12 +573,10 @@ table {
     font-family: "franklin-gothic-urw", sans-serif;
     font-size: 16px; }
   #about .portrait, #posts .author .portrait {
-    -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #FFF;
     background: white;
     height: 138px;
     width: 138px;
@@ -589,7 +587,7 @@ table {
 
 #posts {
   width: 100%;
-  background: white;
+  background: #fff;
   margin-top: 25px; }
   #posts .author {
     border-top: 1px solid #e2e2e2; }
@@ -608,7 +606,7 @@ table {
     line-height: 164%; }
     #posts article:last-child {
       padding-bottom: 0px;
-      border-bottom: 0px dotted #cccccc; }
+      border-bottom: 0px dotted #ccc; }
     #posts article h1 {
       text-align: left;
       font-weight: normal;
@@ -619,12 +617,16 @@ table {
       letter-spacing: 2px; }
       #posts article h1:before {
         border-bottom: 0px solid; }
+    #posts article img {
+      width: 100%;
+      margin-top: -20px;
+      margin-bottom: -20px; }
     #posts article h2 {
       display: block;
       margin-top: 10px;
       margin-bottom: 3px; }
     #posts article p {
-      color: #555555;
+      color: #555;
       margin: 0 0 14px; }
     #posts article p {
       margin-bottom: 24px; }
@@ -633,7 +635,7 @@ table {
       margin-right: 0px; }
     #posts article time {
       display: block;
-      color: #cccccc; }
+      color: #ccc; }
     #posts article .content {
       max-height: 457px;
       overflow: hidden;
@@ -646,14 +648,14 @@ table {
       position: absolute;
       right: -63px;
       bottom: -14px;
-      color: #cccccc;
+      color: #ccc;
       font-size: 16px;
       letter-spacing: 1px;
       transition: all 0.3s ease; }
       #posts article .more-link:hover {
-        color: #3399cc; }
+        color: #39c; }
         #posts article .more-link:hover .caret-right {
-          color: #3399cc; }
+          color: #39c; }
     #posts article .caret-right {
       transition: all 0.3s ease;
       color: #e2e2e2;
@@ -676,7 +678,7 @@ table {
   .project h2 {
     width: 91px; }
   .project h2, .project h2 a {
-    color: #444444;
+    color: #444;
     display: inline-block; }
   .project .description {
     display: inline-block;
@@ -686,12 +688,12 @@ table {
     margin-left: 32px; }
 
 #publications {
-  background: white; }
+  background: #fff; }
   #publications:after {
-    border-bottom-color: white; }
+    border-bottom-color: #fff; }
   #publications .publication {
     border-bottom: 1px dotted #dbdbdb;
-    color: #555555;
+    color: #555;
     padding: 34px;
     padding-left: 0px; }
     #publications .publication remoteurls {
@@ -705,12 +707,12 @@ table {
       #publications .publication .subheading.last {
         padding-bottom: 0px; }
     #publications .publication .author {
-      color: #555555;
+      color: #555;
       font-style: italic;
       display: block;
       margin-bottom: 3px; }
     #publications .publication .journal, #publications .publication .date {
-      color: #555555; }
+      color: #555; }
     #publications .publication:first-child {
       padding-top: 0px;
       border-top: 0px; }
@@ -725,16 +727,16 @@ body {
   font-family: "adobe-garamond-pro", sans-serif;
   font-size: 20px;
   line-height: 164%;
-  color: white;
-  background: #eeeeee; }
+  color: #fff;
+  background: #eee; }
 
 html.wf-active body {
-  color: #777777; }
+  color: #777; }
 
 html.wf-active body a {
-  color: #3399cc; }
+  color: #39c; }
 html.wf-active body h1, html.wf-active body h2, html.wf-active body h1 a, html.wf-active body h2 a, html.wf-active body h1 {
-  color: #222222; }
+  color: #222; }
 html.wf-active body h3, html.wf-active body h4, html.wf-active body h5, html.wf-active body h6 {
   color: #494949; }
 
@@ -787,7 +789,7 @@ a {
 
 code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color: #333333;
+  color: #333;
   font-size: 12px; }
 
 pre {
@@ -807,11 +809,11 @@ th, td {
   border-bottom: 1px solid #e5e5e5; }
 
 dt {
-  color: #444444;
+  color: #444;
   font-weight: 700; }
 
 th {
-  color: #444444; }
+  color: #444; }
 
 img {
   max-width: 100%; }
@@ -844,7 +846,7 @@ header {
   width: 100%;
   border-bottom: 1px solid #e2e2e2;
   padding-top: 20px;
-  color: #cccccc;
+  color: #ccc;
   text-align: center;
   transition: all 0.2s ease-in-out;
   height: 43px; }
@@ -858,7 +860,7 @@ header {
     margin: 0px;
     transition: all 0.2s ease-in-out; }
     header h1:before {
-      border-bottom: 1px solid #333333; }
+      border-bottom: 1px solid #333; }
 
 small {
   font-size: 11px; }
@@ -902,7 +904,7 @@ section {
   height: 1em;
   width: 100%;
   margin-top: 0.3em;
-  border-bottom: 1px solid #777777;
+  border-bottom: 1px solid #777;
   color: #505050; }
 .faux-underline:hover, .project h2 a:hover {
   text-decoration: none; }
@@ -919,7 +921,7 @@ section {
     height: 1em;
     width: 100%;
     margin-top: 0.2em;
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #777;
     color: #505050; }
 
 .faux-underline-large {
@@ -934,13 +936,13 @@ section {
   height: 1em;
   width: 100%;
   margin-top: 0.4em;
-  border-bottom: 2px solid #333333;
+  border-bottom: 2px solid #333;
   color: #505050; }
 .faux-underline-large:hover {
   text-decoration: none; }
 
 .content > h1:before {
-  border-bottom: 3px solid #333333; }
+  border-bottom: 3px solid #333; }
 
 .faux-underline-hover-large {
   display: inline;
@@ -954,7 +956,7 @@ section {
     height: 1em;
     width: 100%;
     margin-top: 0.3em;
-    border-bottom: 2px solid #333333;
+    border-bottom: 2px solid #333;
     color: #505050; }
 
 .highlight  { background: #ffffff; }

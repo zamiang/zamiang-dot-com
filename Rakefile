@@ -8,8 +8,7 @@ GITHUB_REPONAME = "zamiang/zamiang.github.com"
 SOURCE = "."
 CONFIG = {
   'version' => "0.3.0",
-  'themes' => File.join(SOURCE, "_includes", "themes"),
-  'layouts' => File.join(SOURCE, "_layouts"),
+  'layouts' => File.join(SOURCE, "layouts"),
   'posts' => File.join(SOURCE, "posts/_posts"),
   'publications' => File.join(SOURCE, "publications/_posts"),
   'projects' => File.join(SOURCE, "projects/_posts"),
@@ -22,11 +21,8 @@ module JB
   class Path
     SOURCE = "."
     Paths = {
-      :layouts => "_layouts",
-      :themes => "_includes/themes",
-      :theme_assets => "assets/themes",
-      :theme_packages => "_theme_packages",
-      :posts => "_posts"
+      :layouts => "layouts",
+      :posts => "posts"
     }
 
     def self.base

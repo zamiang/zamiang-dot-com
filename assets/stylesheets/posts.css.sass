@@ -1,0 +1,80 @@
+@import "base"
+
+#posts
+  width: 100%
+  background: #fff
+  margin-top: 25px
+  .author
+    border-top: 1px solid #e2e2e2
+    .written-by-note
+      font-family: "franklin-gothic-urw",sans-serif
+      line-height: 148%
+      font-weight: normal
+      letter-spacing: 2px
+      text-transform: uppercase
+      font-size: 13px
+      margin-top: 26px
+  article
+    padding-top: 50px
+    position: relative
+    font-size: 20px
+    line-height: 164%
+    &:last-child
+      padding-bottom: 0px
+      border-bottom: 0px dotted #ccc
+    h1
+      text-align: left
+      font-weight: normal
+      line-height: 120%
+      font-size: 38px
+      margin-bottom: 10px
+      display: block
+      letter-spacing: 2px
+      &:before
+        border-bottom: 0px solid
+    img
+      width: 100%
+      margin-top: -20px
+      margin-bottom: -20px
+    h2
+      display: block
+      margin-top: 10px
+      margin-bottom: 3px
+    p
+      color: #555
+      margin: 0 0 14px
+    p
+      margin-bottom: 24px
+    blockquote
+      margin-bottom: 10px
+      margin-right: 0px
+    time
+      display: block
+      color: #ccc
+    .content
+      max-height: 457px
+      overflow: hidden
+      border-bottom: 1px solid #e2e2e2
+      margin: 0px 0px 34px
+      transition: all 0.3s ease
+      position: relative
+    .more-link
+      font-family: "franklin-gothic-urw",sans-serif
+      position: absolute
+      right: -63px
+      bottom: -14px
+      color: #ccc
+      font-size: 16px
+      letter-spacing: 1px
+      transition: all 0.3s ease
+      &:hover
+        color: #39c
+        .caret-right
+          color: #39c
+    .caret-right
+      transition: all 0.3s ease
+      color: #e2e2e2
+      font-size: 38px
+      vertical-align: top
+      margin-top: -3px
+      display: inline-block

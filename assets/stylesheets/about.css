@@ -1,0 +1,52 @@
+#about {
+  width: 100%;
+  overflow: hidden;
+  padding: 125px 0px 70px;
+  background: #fff;
+  font-size: 20px; }
+  #about p {
+    color: #333; }
+
+#about, #posts .author {
+  text-align: center;
+  width: 100%; }
+  #about .info, #posts .author .info {
+    margin-top: 26px; }
+  #about .name, #posts .author .name {
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333;
+    margin-bottom: 28px;
+    font-family: "franklin-gothic-urw", sans-serif;
+    line-height: 148%;
+    font-weight: normal; }
+  #about .subheading, #posts .author .subheading {
+    width: 362px;
+    margin: 0px auto;
+    margin-bottom: 21px; }
+  #about .ellipsis, #posts .author .ellipsis {
+    font-size: 61px;
+    color: #DDD;
+    line-height: 126%;
+    margin-top: -21px; }
+  #about h1, #posts .author h1 {
+    margin: 69px auto 30px; }
+  #about .links, #posts .author .links {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-size: 16px; }
+  #about .portrait, #posts .author .portrait {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    background: white;
+    height: 138px;
+    width: 138px;
+    overflow: hidden;
+    margin: 0px auto; }
+    #about .portrait img, #posts .author .portrait img {
+      width: 150px; }
