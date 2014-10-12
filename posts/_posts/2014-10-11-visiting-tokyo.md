@@ -70,14 +70,21 @@ old men who accumulated a crew and more beers as we went along. All
 well dressed and just quietly having a great time as they drank their
 way to the onsen.
 
-# Interesting policies When visiting a new place, I love learning
-about social policies that express or address the areas unique
-challenges. For example, Hong Kong has many policies simply to manage
-its relationship with mainland China. Healthcare and infrastructure
-for 7 million people can't support the demands of the 1+ billion
-people of mainland China as expressed in the
+# Interesting policies
+
+When visiting a new place, I love learning about social policies that
+express or address the areas unique challenges. For example, Hong Kong
+has many policies simply to manage its relationship with mainland
+China. Healthcare and infrastructure for 7 million people can't
+support the demands of the 1+ billion people of mainland China as
+expressed in the
 [milkpowder customs policy](http://www.customs.gov.hk/en/whats_new/API/index.html). Thailand,
-as a developing nation, prevents foreigners from buying land which many inflate housing prices for the people actually living there. Japan is a very formal culture, it is difficul to tell whether something is legally enforced or merely customary. I would love to learn about more policies but here are a few that I found most interesting.
+as a developing nation, prevents foreigners from buying land which
+many inflate housing prices for the people actually living
+there. Japan is a very formal culture. Due to the formality, it is
+difficult to tell whether something is legally enforced or merely
+customary. I would love to learn about more policies but here are a
+few that I found most interesting.
 
 ## Trash
 Basically, it costs money to throw stuff away. Throwing away a desk
