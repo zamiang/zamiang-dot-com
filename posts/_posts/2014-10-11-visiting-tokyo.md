@@ -20,30 +20,29 @@ account.
 While fairly westernized, Japan is truly another world from the United
 States end to end. From the cute little construction cones to a wholly
 different philosophy for how you treat the space around you. The
-differences and their nuances are often astounding. Its common for
-white dudes to ask other white dudes 'do you ever think you could
-become one of them'. No amount of time would allow me to
-'assimilate'. That is such an incredibly wrong (and probably
-frustrating!) mindset for living in Tokyo or anywhere your racial
-makeup will forever mark you an outsider. Just be nice, don't try to
-be Japanese.
+differences and their nuances are often astounding. No amount of time
+would allow me, or any non-japanese person to 'assimilate'. That is such
+an incredibly wrong (and probably frustrating!) mindset for living in
+Tokyo or anywhere your racial makeup will forever mark you an
+outsider. Just be nice, don't try to be Japanese.
 
 ![Erina in Hakone](/assets/images/IMG_3428.jpg)
 
 ## Getting around Tokyo
 
-Get a bike in Tokyo. The city has near-scandinavian level bike
-accommodations. There are big organized sidewalks and traffic on the
-roads goes at a bike-able speed. If you are familiar with biking and
-driving, it is really a no brainer. The benefits are simply that you
-learn the city instead of the train stations. Tokyo is incredibly
-cavernous and is easily discoverable on a bike where you can quickly
-stop to investigate some curiosity down an alleyway. For navigating, I
-was able to use google maps cache and the iPhone GPS (which still
-works). There are some strange rules about where you can lock your
-bike but generally just try to lock it up near other bikes. Last bit
-of advice, just remember to sing 'to the left, to the left' pretty
-much all the time.
+Get a bike in Tokyo. Despite the lack of bike lanes, the city has
+near-scandinavian level bike accommodations. There are big organized
+sidewalks and traffic on the roads goes at a bike-able speed. Many
+women bike with no helmet holding multiple babies. If you are familiar
+with biking and driving, it is really a no brainer. The benefits are
+simply that you learn the cvity instead of the train stations. Tokyo is
+incredibly cavernous and is easily discoverable on a bike where you
+can quickly stop to investigate some curiosity down an alleyway. For
+navigating, I was able to use google maps cache and the iPhone GPS
+(which works for CDMA phones). There are some strange rules about
+where you can lock your bike but generally just try to lock it up near
+other bikes. Last bit of advice, just remember to sing 'to the left,
+to the left' pretty much all the time.
 
 ## Drinking
 
@@ -82,7 +81,7 @@ expressed in the
 as a developing nation, prevents foreigners from buying land which
 many inflate housing prices for the people actually living
 there. Japan is a very formal culture. Due to the formality, it is
-difficult to tell whether something is legally enforced or merely
+difficult to tell whether something is legal policy or merely
 customary. I would love to learn about more policies but here are a
 few that I found most interesting.
 
@@ -93,16 +92,20 @@ reuse. If there is anything I would want to take from Tokyo to the
 USA, it would be this policy.
 
 ## Jay Walking
-There is no jay walking except at night. When someone does jay walk, the whole crowd follows. It seems that no one wants to be that 1st person to break the rule.
+
+There is no jay walking except at night. When someone does jay walk,
+the whole crowd follows. It seems that no one wants to be that 1st
+person to break the rule.
 
 ## Building height restrictions
+
 Tokyo is easily the most livable city I've ever visited and building
 height restrictions are a huge part of that. Unlike cities with
-limited space, Tokyo is an interesting
-reference for a large city like Brooklyn. My guess is that building
-height restrictions creates even population density around the
-city. Even density encourages even transportation coverage across the
-city via Buses or wide bike able sidewalks.
+limited space, Tokyo is an interesting reference for a large city like
+Brooklyn. My guess is that building height restrictions creates even
+population density around the city. Even density encourages even
+transportation coverage across the city via Buses or wide bike able
+sidewalks.
 
 ![Ginza](/assets/images/IMG_3427.jpg)
 
@@ -118,7 +121,7 @@ city via Buses or wide bike able sidewalks.
 - My favorite spots on [Foursquare](https://foursquare.com/zamiang/list/tokyo-2014
 )
 - Hakone makes for a wonderful and affordable day trip ($20 each way)
-- Check out Gary's list [here](https://hackpad.com/Tokyo-City-Guide-Shibuya-dAH3iuF7ecv)
+- Check out Gary's Tokyo guide [here](https://hackpad.com/Tokyo-City-Guide-Shibuya-dAH3iuF7ecv)
 
 Have fun!
 
