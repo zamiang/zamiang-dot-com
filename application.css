@@ -617,6 +617,8 @@ table {
       letter-spacing: 2px; }
       #posts article h1:before {
         border-bottom: 0px solid; }
+    #posts article ol, #posts article ul {
+      color: #555; }
     #posts article img {
       width: 100%; }
     #posts article h2 {
