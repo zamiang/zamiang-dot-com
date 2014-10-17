@@ -32,13 +32,13 @@ outsider. Just be nice, don't try to be Japanese.
 
 Get a bike in Tokyo. Despite the lack of bike lanes, the city has
 near-scandinavian level bike accommodations. There are big organized
-sidewalks and traffic on the roads goes at a bike-able speed. Many
+sidewalks and traffic goes at a bike-able speed. Many
 women bike with no helmet holding multiple babies. If you are familiar
 with biking and driving, it is really a no brainer. The benefits are
 simply that you learn the cvity instead of the train stations. Tokyo is
 incredibly cavernous and is easily discoverable on a bike where you
 can quickly stop to investigate some curiosity down an alleyway. For
-navigating, I was able to use google maps cache and the iPhone GPS
+navigating, I was able to use Google Maps cache and the iPhone GPS
 (which works for CDMA phones). There are some strange rules about
 where you can lock your bike but generally just try to lock it up near
 other bikes. Last bit of advice, just remember to sing 'to the left,
@@ -46,7 +46,7 @@ to the left' pretty much all the time.
 
 ## Drinking
 
-Bar culture is very american / european creation. Each asian country
+Bar culture is very american / european creation. Each Asian country
 certainly has its history with alcohol but they incorporate 'bar
 culture' into existing traditions in wildly different ways. It seems
 like the differences are either reflection of when they modernized or
@@ -57,14 +57,14 @@ happens in all kinds of ways, except at dinner. Bars often try to
 build their own culture since they have a dedicated clientele from
 doubling as stores or coffee shops during the day. We had many
 interesting experiences since bars seem to take a quality of
-'bars-ness' and push it to the extreme. Were kicked out of a very
+'bars-ness' and push it to the extreme. We were kicked out of a very
 quiet whisky bar for laughing and then went to a bar where buying a
 drink allows you to pick the next song - a drunkards dream jukebox.
 
 ![Day drinking](/assets/images/IMG_3425.jpg)
 
 Public drinking is generally ok in Asia. One of my favorite moments
-from the trip was on a 9am train to Hakone, we sat next to a group of
+from the trip was on a 9AM train to Hakone, we sat next to a group of
 old men who accumulated a crew and more beers as we went along. All
 well dressed and just quietly having a great time as they drank their
 way to the onsen.
@@ -104,7 +104,7 @@ height restrictions are a huge part of that. Unlike cities with
 limited space, Tokyo is an interesting reference for a large city like
 Brooklyn. My guess is that building height restrictions creates even
 population density around the city. Even density encourages even
-transportation coverage across the city via Buses or wide bike able
+transportation coverage via Buses or wide bike able
 sidewalks.
 
 ![Ginza](/assets/images/IMG_3427.jpg)
