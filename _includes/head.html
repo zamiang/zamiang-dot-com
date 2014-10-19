@@ -2,11 +2,23 @@
   <meta name="google-site-verification" content="j-E8_XgKxhDDcGqaPh8ohMSwBwUwR5V2OAwKasKpeRo" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  {% if page.title %}
+  <title>{{ page.title }} | Brennan Moore</title>
+  {% else %}
   <title>Brennan Moore</title>
+  {% endif %}
   <meta name="author" content="Brennan Moore">
-  <meta name="description" content="">
+  {% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}">
+  {% else %}
+  <meta name="description" content="Building build web applications to help people go about their day in a more awesome way.">
+  {% endif %}
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" type="text/css" href="/application.min.css" />
+  <link rel="author" href="https://plus.google.com/u/1/100884430802346698066/posts"/>
+  {% if page.date %}
+    <meta http-equiv="date" content="{{ page.date |date: '%A, %d  %Y %H:%M:%S GMT' }}" />
+  {% endif %}
   <script type="text/javascript" src="/application.min.js"></script>
   <link type="application/atom+xml" rel="alternate" href="rss.xml"/>
   <link type="application/rss+xml" rel="alternate" href="atom.xml"/>

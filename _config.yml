@@ -8,6 +8,7 @@ author:
   email: brennanmoore@gmail.com
   github: zamiang
   twitter: zamiang
+  gplus: 'https://plus.google.com/u/1/100884430802346698066/posts'
 permalink: /:categories/:year/:month/:day/:title 
 production_url: http://www.zamiang.com
 
