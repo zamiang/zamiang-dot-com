@@ -3,21 +3,23 @@ layout: default
 ---
 
 <section id="posts">
-  <div class="content" itemscope="" itemtype="http://schema.org/BlogPosting">
-    <article>
-      <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: '%B %d, %Y' }}</time>
-      <h1 itemprop="name headline">{{ page.title }}</h1>
-      <div itemprop="articleBody">{{ content }}</div>
-    </article>
-    <div class="author" itemscope="" itemprop="author" itemtype="http://schema.org/Person">
-      <p class="written-by-note">Written By</p>
-      <div class="portrait">
-        <img itemprop="image" src="http://secure.gravatar.com/avatar/ed442a2cfbe84d5bf40e09c58ba80b5f?size=200" />
-      </div>
-      <div class="info">
-        <p class="name faux-underline-large" itemprop="name">Brennan Moore</p>
-        <p class="subheading">Building build web applications to help people go about their day in a more awesome way.</p>
-        <p class="call-to-action">Follow me on Twitter <a href="https://twitter.com/zamiang">here</a>.</p>
-      </div>
-  </div>
+    <div class="content" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <article>
+            <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: '%B %d, %Y' }}</time>
+            <h1 itemprop="name headline">{{ page.title }}</h1>
+            <div itemprop="articleBody">{{ content }}</div>
+        </article>
+        <a href="https://plus.google.com/+BrennanMoore" rel="publisher" style="display: none"></a>
+        <div class="author" itemscope="" itemprop="author" itemtype="http://schema.org/Person">
+            <p class="written-by-note">Written By</p>
+            <div class="portrait">
+                <img itemprop="image" src="http://secure.gravatar.com/avatar/ed442a2cfbe84d5bf40e09c58ba80b5f?size=200" />
+            </div>
+            <div class="info">
+                <p class="name faux-underline-large" itemprop="name">Brennan Moore</p>
+                <p class="subheading">Building build web applications to help people go about their day in a more awesome way.</p>
+                <p class="call-to-action">Follow me on Twitter <a href="https://twitter.com/zamiang">here</a>.</p>
+            </div>
+        </div>
+    </div>
 </section>
