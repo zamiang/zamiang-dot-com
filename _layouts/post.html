@@ -3,8 +3,8 @@ layout: default
 ---
 
 <section id="posts">
-  <div class="content">
-    <article itemscope="" itemtype="http://schema.org/BlogPosting">
+  <div class="content" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <article>
       <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: '%B %d, %Y' }}</time>
       <h1 itemprop="name headline">{{ page.title }}</h1>
       <div itemprop="articleBody">{{ content }}</div>
