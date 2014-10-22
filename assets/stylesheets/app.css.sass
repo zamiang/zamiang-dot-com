@@ -3,16 +3,23 @@
 body
   padding: 0px
   margin: 0px
-  font-family: "adobe-garamond-pro", sans-serif
+  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif
+  letter-spacing: 0.01rem
+  font-weight: 400
+  font-style: normal
   font-size: 20px
-  line-height: 164%
+  line-height: 1.6em
   color: #fff
   background: #eee
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-smoothing: antialiased
+  a, h1, h2, h1 a, h2 a, h1, h3, h4, h5, h6
+    color: #fff
 
 html.wf-active body
-  color: #777
-
-html.wf-active body
+  color: rgba(0,0,0,0.8)
   a
     color: #39c
 
@@ -28,12 +35,12 @@ h1, h2, h3, h4, h5, h6
 p, ul, ol, table, pre, dl
   margin: 0 0 20px
 
-
 pre
   margin-bottom: 30px
 
 p
-  line-height:  170%
+  line-height:  1.6em
+  word-wrap: break-word
 
 p.nomargin
   margin: 0 0 20px
@@ -51,7 +58,6 @@ h1, h2
 
 h1
   font-size: 28px
-  /* text-transform: uppercase
   text-align: center
   letter-spacing: 2px
 
@@ -196,23 +202,6 @@ section
   &:hover
     text-decoration: none
 
-.faux-underline-hover
-  &
-    display: inline
-    position: relative
-    text-decoration: none
-    &:hover, &:focus
-      &:before
-        content: ''
-        position: absolute
-        left: 0
-        display: inline-block
-        height: 1em
-        width: 100%
-        margin-top: 0.2em
-        border-bottom: 1px solid #777
-        color: rgb(80, 80, 80)
-
 .faux-underline-large
   &
     display: inline-block
@@ -235,20 +224,3 @@ section
 .content > h1
   &:before
     border-bottom: 3px solid #333
-
-.faux-underline-hover-large
-  &
-    display: inline
-    position: relative
-    text-decoration: none
-    &:hover
-      &:before
-        content: ''
-        position: absolute
-        left: 0
-        display: inline-block
-        height: 1em
-        width: 100%
-        margin-top: 0.3em
-        border-bottom: 2px solid #333
-        color: rgb(80, 80, 80)

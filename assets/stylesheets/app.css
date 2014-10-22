@@ -1,21 +1,29 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: "adobe-garamond-pro", sans-serif;
+  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
   font-size: 20px;
-  line-height: 164%;
+  line-height: 1.6em;
   color: #fff;
-  background: #eee; }
+  background: #eee;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased; }
+  body a, body h1, body h2, body h1 a, body h2 a, body h1, body h3, body h4, body h5, body h6 {
+    color: #fff; }
 
 html.wf-active body {
-  color: #777; }
-
-html.wf-active body a {
-  color: #39c; }
-html.wf-active body h1, html.wf-active body h2, html.wf-active body h1 a, html.wf-active body h2 a, html.wf-active body h1 {
-  color: #222; }
-html.wf-active body h3, html.wf-active body h4, html.wf-active body h5, html.wf-active body h6 {
-  color: #494949; }
+  color: rgba(0, 0, 0, 0.8); }
+  html.wf-active body a {
+    color: #39c; }
+  html.wf-active body h1, html.wf-active body h2, html.wf-active body h1 a, html.wf-active body h2 a, html.wf-active body h1 {
+    color: #222; }
+  html.wf-active body h3, html.wf-active body h4, html.wf-active body h5, html.wf-active body h6 {
+    color: #494949; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px; }
@@ -27,7 +35,8 @@ pre {
   margin-bottom: 30px; }
 
 p {
-  line-height: 170%; }
+  line-height: 1.6em;
+  word-wrap: break-word; }
 
 p.nomargin {
   margin: 0 0 20px; }
@@ -45,7 +54,6 @@ h1, h2 {
 
 h1 {
   font-size: 28px;
-  /* text-transform: uppercase */
   text-align: center;
   letter-spacing: 2px; }
 
@@ -186,21 +194,6 @@ section {
 .faux-underline:hover, .project h2 a:hover {
   text-decoration: none; }
 
-.faux-underline-hover {
-  display: inline;
-  position: relative;
-  text-decoration: none; }
-  .faux-underline-hover:hover:before, .faux-underline-hover:focus:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    display: inline-block;
-    height: 1em;
-    width: 100%;
-    margin-top: 0.2em;
-    border-bottom: 1px solid #777;
-    color: #505050; }
-
 .faux-underline-large {
   display: inline-block;
   position: relative;
@@ -220,18 +213,3 @@ section {
 
 .content > h1:before {
   border-bottom: 3px solid #333; }
-
-.faux-underline-hover-large {
-  display: inline;
-  position: relative;
-  text-decoration: none; }
-  .faux-underline-hover-large:hover:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    display: inline-block;
-    height: 1em;
-    width: 100%;
-    margin-top: 0.3em;
-    border-bottom: 2px solid #333;
-    color: #505050; }
