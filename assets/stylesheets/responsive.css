@@ -3,9 +3,12 @@
     left: 25px;
     width: calc(100% - 50px); } }
 @media (max-width: 700px) {
+  body {
+    font-size: 16px; }
+
   .content {
     width: auto;
-    margin: 0px 25px; }
+    margin: 0px 20px; }
 
   #article .content {
     margin: 0px 0px; }
@@ -23,6 +26,11 @@
 
   #posts .author .subheading {
     width: 100%; }
+  #posts article h1 {
+    font-size: 30px; }
+
+  .more-link {
+    display: none; }
 
   #photos img {
     width: auto; }
