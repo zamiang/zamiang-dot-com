@@ -576,12 +576,10 @@ table {
     border-radius: 50%;
     border: 3px solid #FFF;
     background: white;
-    height: 138px;
-    width: 138px;
+    height: 200px;
+    width: 200px;
     overflow: hidden;
     margin: 0px auto; }
-    #about .portrait img, #posts .author .portrait img {
-      width: 150px; }
 
 #posts {
   width: 100%;
