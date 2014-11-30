@@ -2,6 +2,9 @@
   width: 100%;
   background: #fff;
   margin-top: 25px; }
+  #posts.index-page {
+    padding-top: 0px;
+    margin-top: -25px; }
   #posts .author {
     border-top: 1px solid #e2e2e2; }
     #posts .author .written-by-note {
@@ -18,8 +21,7 @@
     #posts article:first-child {
       padding-top: 0px; }
     #posts article:last-child {
-      padding-bottom: 0px;
-      border-bottom: 0px dotted #ccc; }
+      padding-bottom: 0px; }
     #posts article h1 {
       text-align: left;
       font-weight: normal;
@@ -51,27 +53,22 @@
     #posts article .content {
       max-height: 457px;
       overflow: hidden;
-      border-bottom: 1px solid #e2e2e2;
-      margin: 0px 0px 34px;
+      margin: 0px;
       transition: all 0.3s ease;
       position: relative; }
+    #posts article .bottom-gradient {
+      display: block;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1%, #ffffff 100%, #ffffff 100%);
+      padding-top: 73px;
+      margin-top: -73px;
+      position: relative; }
     #posts article .more-link {
-      font-family: "franklin-gothic-urw", sans-serif;
-      position: absolute;
-      right: -63px;
-      bottom: -14px;
       color: #ccc;
-      font-size: 16px;
-      letter-spacing: 1px;
-      transition: all 0.3s ease; }
-      #posts article .more-link:hover {
+      display: block;
+      text-align: center;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, rgba(255, 255, 255, 0.99) 99%, #ffffff 100%);
+      padding-top: 30px; }
+      #posts article .more-link .ellipsis {
+        transition: all 0.3s ease; }
+      #posts article .more-link:hover .ellipsis {
         color: #39c; }
-        #posts article .more-link:hover .caret-right {
-          color: #39c; }
-    #posts article .caret-right {
-      transition: all 0.3s ease;
-      color: #e2e2e2;
-      font-size: 38px;
-      vertical-align: top;
-      margin-top: -3px;
-      display: inline-block; }
