@@ -7,6 +7,7 @@ s3_bucket: <%= ENV['S3_BUCKET'] %>
 
 max_age:
   "assets/images/*": 31536000
+  "assets/pdf/*": 31536000
   "*": 10800
 
 gzip: true
