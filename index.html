@@ -23,19 +23,17 @@ title: Brennan Moore
       </div>
     </div>
     <h1>Projects</h1>
-    {% for post in site.posts do %}
-    {% if post.category == 'project' %}
+    {% for project in site.projects do %}
     <div class="project">
-      {% if post.website %}
-      <h2><a href="{{ post.website }}">{{ post.title }}</a></h2>
+      {% if project.website %}
+      <h2><a href="{{ project.website }}">{{ project.title }}</a></h2>
       {% else %}
-      <h2>{{ post.title }}</h2>
+      <h2>{{ project.title }}</h2>
       {% endif %}
-      {% if post.description %}
-      <div class="description">{{ post.description | markdownify }}</div>
+      {% if project.description %}
+      <div class="description">{{ project.description | markdownify }}</div>
       {% endif %}
     </div>
-    {% endif %}
     {% endfor %}
   </div>
 </section>
@@ -45,21 +43,19 @@ title: Brennan Moore
     <center>
       <h1>Publications</h1>
     </center>
-    {% for post in site.posts do %}
-    {% if post.category == 'publication' %}
+    {% for publication in site.publications do %}
     <div class="publication">
-      <h2>{{ post.title }}</h2>
-      <span class="author">{{ post.author }}</span>
-      <span class="journal">{{ post.journal }}</span>
-      (<span class="date">{{ post.year }}</span>)&nbsp;
+      <h2>{{ publication.title }}</h2>
+      <span class="author">{{ publication.author }}</span>
+      <span class="journal">{{ publication.journal }}</span>
+      (<span class="date">{{ publication.year }}</span>)&nbsp;
       <remoteURLs>
-        <a href="{{ post.pdf }}">PDF</a>
-        {% if post.extra_url %}
-        &middot; <a href="{{ post.extra_url }}">Citation</a>
+        <a href="{{ publication.pdf }}">PDF</a>
+        {% if publication.extra_url %}
+        &middot; <a href="{{ publication.extra_url }}">Citation</a>
         {% endif %}
       </remoteURLs><br />
     </div>
-    {% endif %}
     {% endfor %}
   </div>
 </section>

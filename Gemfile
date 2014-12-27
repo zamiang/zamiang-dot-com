@@ -12,7 +12,7 @@ gem 'redcarpet'
 
 # for asset compilation
 gem 'rake'
-gem 'guard'
+gem 'guard', '~> 2.7.3'
 gem 'rb-fsevent'
 gem 'rb-inotify'
 gem 'compass'
