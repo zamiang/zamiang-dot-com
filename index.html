@@ -23,7 +23,7 @@ title: Brennan Moore
       </div>
     </div>
     <h1>Projects</h1>
-    {% for project in site.projects do %}
+    {% for project in site.projects reversed do %}
     <div class="project">
       {% if project.website %}
       <h2><a href="{{ project.website }}">{{ project.title }}</a></h2>
