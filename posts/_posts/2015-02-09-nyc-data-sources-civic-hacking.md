@@ -28,7 +28,7 @@ While working on [Vislet](http://www.vislet.com), I have been cataloging useful 
 
 ## Mapping tools
 
-- [Mapshaper](mapshaper.org): Used for quickly transforming and simplifying shapefiles or geojson.
+- [Mapshaper](http://mapshaper.org): Used for quickly transforming and simplifying shapefiles or geojson.
 - [QGIS](http://www.qgis.org/en/site/): Primary OSS GIS software.
 - [Mapzen](https://mapzen.com): Company that creates OS mapping tools.
 - [Mapbox](https://www.mapbox.com/): Tool for creating custom maps.
