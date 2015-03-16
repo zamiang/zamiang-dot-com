@@ -9,7 +9,7 @@ tags: []
 
 I left Artsy 3 months ago.
 
-Since leaving, any friend why was unhappy in a job wanted to chat and see how it is 'on the other side'. This post is a sort of condensed version of those conversations.
+Since leaving, any friend wanted to chat and see how it is 'on the other side' reached out. This post is a sort of condensed version of those conversations.
 
 We are a generation that respects creating value over creating wealth. Financial security is nice but "success" is helping create something culturally important. With that change in the definition of success comes a change in career path. On this 'other path', I hope to help create something that improves peoples lives. With that in mind, the decision to leave Artsy was very clear. It did not align with my career path and mission. Leaving a great job is a difficult decision, but not if you put the change in perspective.
 
@@ -27,7 +27,7 @@ All that said, I feel incredibly lucky to have been a part of such an awesome te
 
 ## Finding what is next
 
-As a young person with no real responsibilities, now is the time to search for what you want to do. This is especially easy to do as a web engineer. There are basically no career risks since everyone needs website help for their revolutionary business venture. Leaving your job isn't a risk as an engineer since you are almost literally falling into piles of money. Now is the time to take those "risks".
+Especially if you are a young person with no real responsibilities, now is the time to search for what you want to do. This is easy to do as a web engineer. There are basically no career risks since everyone needs website help for their revolutionary business venture. Leaving your job isn't a risk as an engineer since you are almost literally falling into piles of money. Now is the time to take those "risks".
 
 First, just try to just listen to yourself. Taking a next step requires having a direction. Slowly try to absolve yourself from responsibility in your current role and use that time to read, listen, write. Try blogging about those areas. If you can't write a few thousand words about an area, you probably aren't that interested in it. Meet people - Do I know anyone who knows anyone who work in those areas? Use what you have written or created to help coffee with in the industry. Go to meetups and find people you can work on small projects with to ry out the relationship and area.
 
