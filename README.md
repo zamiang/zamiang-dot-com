@@ -14,10 +14,7 @@ $ guard
 
 ### Deploy
 
-```bash
-$ jekyll build
-$ s3_website push
-```
+The website is automatically deployed each time a change is commited to this repository.
 
 ### License
 
