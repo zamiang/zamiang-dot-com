@@ -3,6 +3,7 @@ layout: post
 title: "Changing industries for engineers: Why and how I left Artsy"
 description: ""
 category: post
+published: false
 tags: []
 ---
 
@@ -29,7 +30,7 @@ All that said, I feel incredibly lucky to have been a part of such an awesome te
 
 The decision to move on was easy for me, a dude working in tech with no real responsibilities in my life. I 100% would have stayed if I had a family or perhaps worked in a different industry. I would have been 'kinda happy' with that life, but that is not what I want. Now is the time to search for high-impact, fulfilling work. There are basically no career risks in tech since everyone needs website help for their revolutionary business venture. Leaving your job isn't a risk as an engineer since you are almost literally falling into piles of money.
 
-After making the decision to leave, it took about 6 months to actually move on. First, I tried to try build time in to my day to listen to myself. Taking a next step requires having a direction. I slowly tried absolve myself from responsibility and used that time to read, listen, write. I tried blogging about a few areas that interested me. If you can't blog a few thousand words about an area, you probably aren't that interested in it (ht Anil Dash). Meet people - Do I know anyone who knows anyone who work in those areas? I tried to build a few starter projects and use them and what I had written help get coffee with people in the industry. Having created something already, it made conversations at meetups very easy and transactional. After using a project to start conversations, I could freely ask more abstract conversations to learn more about what it is like to actually work in the industry. It is about at this time that I had the confidence to move on. 
+After making the decision to leave, it took about 6 months to actually move on. First, I tried to try build time in to my day to listen to myself. Taking a next step requires having a direction. I slowly tried absolve myself from responsibility and used that time to read, listen, write. I tried blogging about a few areas that interested me. If you can't blog a few thousand words about an area, you probably aren't that interested in it (ht Anil Dash). Meet people - Do I know anyone who knows anyone who work in those areas? I tried to build a few starter projects and use them and what I had written help get coffee with people in the industry. Having created something already, it made conversations at meetups very easy and transactional. After using a project to start conversations, I could freely ask more abstract conversations to learn more about what it is like to actually work in the industry. It is about at this time that I had the confidence to move on.
 
 ### tl;dr for moving on from your current job
 1. Listen
