@@ -26,12 +26,19 @@
       text-align: left;
       font-weight: normal;
       line-height: 1.2em;
-      font-size: 38px;
+      font-size: 48px;
       margin-bottom: 11px;
       display: block;
-      letter-spacing: 2px; }
-      #posts article h1:before {
-        border-bottom: 0px solid; }
+      letter-spacing: 2px;
+      font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+      transition: all 0.3s; }
+    #posts article a h1 {
+      text-decoration: none; }
+      #posts article a h1:hover {
+        text-decoration: underline; }
+    #posts article .content a {
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: underline; }
     #posts article ol, #posts article ul {
       color: #555; }
     #posts article img {
