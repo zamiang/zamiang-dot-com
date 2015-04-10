@@ -11,9 +11,7 @@ I left Artsy 3 months ago.
 
 If all the talk about millennials is to be believed, are a generation that respects creating value over creating wealth. Financial security is nice but "success" is helping create something culturally important. With that change in the definition of success comes a change in career path. On this 'other path', I hope to help create something that improves peoples lives. With that in mind, the decision to leave Artsy was very clear. It did not align with my career path and mission. Leaving a great job is a difficult decision.
 
-
 As far as mission, working in the arts does not have as much social impact as it may seem. It would be amazing if more people had the financial and social support to be able to freely express themselves. But, there are many systems of exclusion in the gallery art world and in society that need to be broken down before that can happen. I would much rather help address those issues at their core than help the existing systems function efficiently. This hit home for me in December when the Eric Garner protests were happing concurrently with Art Basel Miami. The art world should be a safe place for people to express and explore but was not a part of those conversations. It is so self absorbed and slow that it is culturally irrelevant.
-
 
 ## Finding what is next
 
