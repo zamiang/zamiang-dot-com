@@ -8,8 +8,6 @@
 #about, #posts .author {
   text-align: center;
   width: 100%; }
-  #about .info, #posts .author .info {
-    margin-top: 26px; }
   #about .name, #posts .author .name {
     font-size: 28px;
     text-align: center;
