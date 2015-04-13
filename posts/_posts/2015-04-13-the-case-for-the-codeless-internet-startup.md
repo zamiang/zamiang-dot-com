@@ -8,9 +8,9 @@ tags: []
 
 Hell is building fancy stuff that nobody uses.
 
-Since going freelance, I’ve talked to a lot of startup founders who are in search of the elusive 'technical cofounder'. Instead of coding, I’ve tried to help them brainstorm how to get their product in front people without writing any code. The people you hire don't care about your ruby gems. Your users don't care about your github profile. No one cares about your code. They care about what value you create.
+Since going freelance, I’ve talked to a lot of startup founders who are in search of the elusive 'technical cofounder'. Instead of coding, I’ve tried to help them brainstorm how to get their product in front of people without writing any code. The people you hire don't care about your ruby gems. Your users don't care about your github profile. No one cares about your code. They care about what value you create.
 
-Building things that people use and love is incredibly challenging. As engineers, it can be a hard to realize that making something more technologically impressive doesn't make it any more useful. It is even harder to realize that code is an expensive liability. Just like the elements of your business or the features of your product, your code needs to justify its existence. Luckily, with the variety of small third party services, we can think, prototype and understand a problem before we 'go to code'.
+Building things that people use and love is incredibly challenging. As engineers, it can be hard to realize that making something more technologically impressive doesn't make it any more useful. It is even harder to realize that code is an expensive liability. Just like the elements of your business or the features of your product, your code needs to justify its existence. Luckily, with the variety of small third party services, we can think, prototype and understand a problem before we 'go to code'.
 
 ## Case study: Kollecto
 
@@ -28,7 +28,7 @@ One of the biggest mistakes of engineer-driven companies is writing code before 
 
 <img src="/assets/images/mouse.jpg" style="width: 360px" />
 
-Does your website looks like this? Most startup websites are a mess of hastily written features after a few years of brutal, startup-speed iterations. Your startup is not about ‘flexing’ all the awesome code you wrote. When it comes to robustness, a fragile spreadsheet is actually a diamond compared to a hastily written backend that you change 100x as you iterate on your product.
+Does your website look like this? Most startup websites are a mess of hastily written features after a few years of brutal, startup-speed iterations. Your startup is not about ‘flexing’ all the awesome code you wrote. When it comes to robustness, a fragile spreadsheet is actually a diamond compared to a hastily written backend that you change 100x as you iterate on your product.
 
 While we have more incredible web frameworks than ever, we also have an astounding number of small, purpose-built web applications. We can use these to prototype our apps. They allow us to only code when we need to, and only code problems we understand well. Building products is a no flex zone. Don’t let flexing your coding skills get in the way of the building a great product that people use.
 
