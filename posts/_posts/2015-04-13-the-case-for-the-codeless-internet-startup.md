@@ -31,3 +31,5 @@ One of the biggest mistakes of engineer-driven companies is writing code before 
 Does your website looks like this? Most startup websites are a mess of hastily written features after a few years of brutal, startup-speed iterations. Your startup is not about ‘flexing’ all the awesome code you wrote. When it comes to robustness, a fragile spreadsheet is actually a diamond compared to a hastily written backend that you change 100x as you iterate on your product.
 
 While we have more incredible web frameworks than ever, we also have an astounding number of small, purpose-built web applications. We can use these to prototype our apps. They allow us to only code when we need to, and only code problems we understand well. Building products is a no flex zone. Don’t let flexing your coding skills get in the way of the building a great product that people use.
+
+Many thanks to [Christina Xu](https://twitter.com/xuhulk) for her awesome editing help.
