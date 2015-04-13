@@ -16,7 +16,7 @@ Building things that people use and love is incredibly challenging. As engineers
 
 My goto example of a codeless business is Kollecto. Tara Reed, the founder, previously did Business Strategy at Microsoft. While familiar with technology, she isn't an engineer. Yet, in a couple months, she built a website that sends personalized art recommendations and facilitates purchasing the art. In addition to those user facing features, there is a backend for Tara to manage a staff of art advisors as they add new art and track sales. She created this by tying spreadsheets together with purpose-built web applications like [Typeform](http://www.typeform.com) and [Campaign Monitor](https://www.campaignmonitor.com). For more detail, she wrote up the process at ['building Kollecto'](http://buildingkollecto.com/).
 
-In its first few months, Kollecto generated over 20k in revenue and is now off to join [500 Startups](http://500.co/accelerator). Not bad! While she will eventually need to build her own tools to scale the product further, Tara got to her minimum viable product by iterating rapidly on her core product without spending a cent on engineers.
+In its first few months, Kollecto generated over [12k in revenue](http://buildingkollecto.com/post/105930836083/building-without-an-ounce-of-code-part-2) and is now off to join [500 Startups](http://500.co/accelerator). Not bad! While she will eventually need to build her own tools to scale the product further, Tara got to her minimum viable product by iterating rapidly on her core product without spending a cent on engineers.
 
 ## Excel as accelerator
 
