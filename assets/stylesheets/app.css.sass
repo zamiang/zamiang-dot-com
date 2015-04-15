@@ -62,7 +62,7 @@ h1
   letter-spacing: 2px
 
 h2
-  font-size: 16px
+  font-size: 18px
   text-transform: uppercase
   letter-spacing: 1px
 
@@ -136,16 +136,11 @@ header
   padding-top: 20px
   color: #ccc
   text-align: center
-  transition: all 0.2s ease-in-out
-  height: 43px
-  &.small
-    padding-top: 10px
-    height: 29px
-    h1
-      font-size: 13px
+  padding-top: 10px
+  height: 35px
   h1
-    font-size: 16px
     margin: 0px
+    font-size: 16px
     transition: all 0.2s ease-in-out
     &:before
       border-bottom: 1px solid #333
@@ -209,6 +204,12 @@ section
 .content > h1
   &:before
     border-bottom: 3px solid #333
+
+html.wf-active body .content article
+  p, ul li
+    a
+      color: rgba(0,0,0,0.8)
+      text-decoration: underline
 
 .ellipsis
   font-size: 61px
