@@ -23,6 +23,10 @@
       width: 100%; }
     #about .portrait {
       margin-top: 30px; }
+    #about .name.faux-underline-large.blog-heading {
+      max-width: 200px; }
+      #about .name.faux-underline-large.blog-heading:before {
+        border-bottom: 0px solid #333; }
 
   #posts .author .subheading {
     width: 100%; }
