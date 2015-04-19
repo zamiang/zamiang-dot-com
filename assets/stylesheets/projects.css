@@ -18,5 +18,5 @@
     display: inline-block;
     vertical-align: top;
     font-weight: normal;
-    width: 444px;
+    max-width: 444px;
     margin-left: 32px; }
