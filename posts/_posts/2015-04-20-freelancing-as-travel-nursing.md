@@ -6,8 +6,6 @@ category: post
 tags: []
 ---
 
-# "Lets nurse freelance engineering back to health"
-
 I thought I would love absolutely love freelancing. It turns out, I hate it.
 
 Freelancing promises working on tons of different projects and learning new tech. This just sounds so awesome after spending 5 years at startups, stuck with early technical decisions for years. But, the initial brightness quickly dimmed. It is incredibly challenging to be a product focused engineer as a freelance "outsider".
