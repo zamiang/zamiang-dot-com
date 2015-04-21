@@ -24,8 +24,8 @@ Maybe we can learn something from other professions with staffing shortage. How 
 
 My brother is preparing to start out as a traveling nurse. The [traveling nursing](http://en.wikipedia.org/wiki/Travel_nursing) position was created as a response to nursing shortages. When a hospital starts to staff up, they bring traveling nurses onto the team for 3 months to hold them out in the interim. Since there is an engineering shortage, I wonder if it is possible to apply the travel nursing model to engineering.
 
-At Artsy, did something not unlike this. We hired by starting engineers with a three month contract to try out the relationship. Even if things did not work out, we would get a good amount of value out of the relationship. They would start and be on boarded in a couple days and then start picking up tickets. Eventually they would take on a project or work on fixing problems on their own.
+At Artsy, did something like this. We hired by starting engineers with a three month contract to try out the relationship. Even if things did not work out, we would get a value out of the relationship. They would start and onboard, then, in a couple days, start picking up tickets. Eventually they would take on a project or work on fixing problems on their own requiring less oversight since they understand the goals of the organization.
 
-'There be dragons' when applying a model from a formal field and to an informal field like programming. Why not think about hiring freelancers as bringing in reinforcements. Have an engineer join the organization for a short period of time. Maybe if you treat people like they are integral to to the success of something awesome, they will act like it.
+Why not think about hiring freelancers as bringing in reinforcements? Next time you hire a freelancer, just have them join the organization for a short period of time. Maybe if you treat people like they are integral to the success of something awesome, they will act like it.
 
 Nurse!
