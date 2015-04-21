@@ -28,6 +28,4 @@ At Artsy, did something not unlike this. We hired by starting engineers with a t
 
 'There be dragons' when applying a model from a formal field and to an informal field like programming. Why not think about hiring freelancers as bringing in reinforcements. Have an engineer join the organization for a short period of time. Maybe if you treat people like they are integral to to the success of something awesome, they will act like it.
 
-This role of 'make stuff more awesome' is an abstract, traditionally full-time role, but I wonder if it makes sense in our current tech climate.
-
 Nurse!
