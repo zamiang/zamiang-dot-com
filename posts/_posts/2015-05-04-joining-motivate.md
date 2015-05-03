@@ -4,6 +4,7 @@ title: "Joining Motivate"
 description: ""
 category: post
 tags: []
+published: false
 ---
 
 I am incredibly excited to announce I've joined Motivate as their Director of Engineering, Software and Integrations.
