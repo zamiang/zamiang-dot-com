@@ -23,3 +23,4 @@ gem 'guard-coffeescript'
 gem 'guard-jammit'
 gem 'therubyracer' # v8 engine
 gem 's3_website'
+gem 'jekyll-sitemap'

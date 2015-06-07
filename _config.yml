@@ -1,9 +1,13 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor", "Gemfile", "Gemfile.lock", "Guardfile", "assets.yml"]
 highlighter: pygments
 
+gems:
+  - jekyll-sitemap
+
 title: Brennan Moore
 description: Building build web applications to help people go about their day in a more awesome way.
 url: https://zamiang.com
+production_url: http://www.zamiang.com
 author:
   name: Brennan Moore
   email: brennanmoore@gmail.com
@@ -11,7 +15,6 @@ author:
   twitter: zamiang
   gplus: 'https://plus.google.com/u/1/100884430802346698066/posts'
 permalink: /:categories/:year/:month/:day/:title
-production_url: http://www.zamiang.com
 
 markdown: redcarpet
 redcarpet:
