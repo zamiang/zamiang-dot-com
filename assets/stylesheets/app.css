@@ -7,17 +7,22 @@ body {
   font-style: normal;
   font-size: 20px;
   line-height: 1.6em;
-  color: #fff;
-  background: #eee;
+  color: transparent;
+  background: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased; }
   body a, body h1, body h2, body h1 a, body h2 a, body h1, body h3, body h4, body h5, body h6 {
-    color: #fff; }
+    color: transparent; }
+
+svg {
+  display: none; }
 
 html.wf-active body {
   color: rgba(0, 0, 0, 0.8); }
+  html.wf-active body time {
+    color: rgba(0, 0, 0, 0.8); }
   html.wf-active body a {
     color: #39c; }
   html.wf-active body h1, html.wf-active body h2, html.wf-active body h1 a, html.wf-active body h2 a, html.wf-active body h1 {
@@ -58,8 +63,7 @@ h1 {
   letter-spacing: 2px; }
 
 h2 {
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 20px;
   letter-spacing: 1px; }
 
 h3 {
@@ -127,9 +131,8 @@ header {
   top: 0px;
   text-align: left;
   z-index: 11;
-  background: #fdfdfd;
   width: 100%;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #000;
   padding-top: 20px;
   color: #ccc;
   text-align: center;
@@ -137,10 +140,8 @@ header {
   height: 35px; }
   header h1 {
     margin: 0px;
-    font-size: 16px;
+    font-size: 20px;
     transition: all 0.2s ease-in-out; }
-    header h1:before {
-      border-bottom: 1px solid #333; }
 
 small {
   font-size: 11px; }
@@ -154,8 +155,7 @@ hr {
 section {
   width: 100%;
   padding: 70px 0px;
-  position: relative;
-  background: #effdfd; }
+  position: relative; }
   section:last-child {
     border-bottom: 1px solid #e2e2e2; }
 
@@ -188,7 +188,7 @@ section {
   height: 1em;
   width: 100%;
   margin-top: 0.4em;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid #333;
   color: #505050; }
 .faux-underline-large:hover {
   text-decoration: none; }
@@ -205,3 +205,21 @@ html.wf-active body .content article p a, html.wf-active body .content article u
   color: #DDD;
   line-height: 126%;
   margin-top: -21px; }
+
+@media screen and (min-width: 800px) {
+  html {
+    background: linear-gradient(to bottom, #d3eff0 0%, #ffffff 100%); }
+    html body {
+      width: 95%;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto; }
+      html body header {
+        width: 95%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 35px;
+        overflow: hidden; }
+      html body #posts {
+        margin-top: 60px; } }

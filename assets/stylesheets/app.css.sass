@@ -9,17 +9,22 @@ body
   font-style: normal
   font-size: 20px
   line-height: 1.6em
-  color: #fff
-  background: #eee
+  color: transparent
+  background: inherit
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   font-smoothing: antialiased
   a, h1, h2, h1 a, h2 a, h1, h3, h4, h5, h6
-    color: #fff
+    color: transparent
+
+svg
+  display: none
 
 html.wf-active body
   color: rgba(0,0,0,0.8)
+  time
+    color: rgba(0,0,0,0.8)
   a
     color: #39c
 
@@ -62,8 +67,7 @@ h1
   letter-spacing: 2px
 
 h2
-  font-size: 18px
-  text-transform: uppercase
+  font-size: 20px
   letter-spacing: 1px
 
 h3
@@ -130,9 +134,8 @@ header
   top: 0px
   text-align: left
   z-index: 11
-  background: rgb(253,253,253)
   width: 100%
-  border-bottom: 1px solid #e2e2e2
+  border-bottom: 1px solid #000
   padding-top: 20px
   color: #ccc
   text-align: center
@@ -140,10 +143,8 @@ header
   height: 35px
   h1
     margin: 0px
-    font-size: 16px
+    font-size: 20px
     transition: all 0.2s ease-in-out
-    &:before
-      border-bottom: 1px solid #333
 
 small
   font-size: 11px
@@ -158,7 +159,6 @@ section
   width: 100%
   padding: 70px 0px
   position: relative
-  background: rgb(239, 253, 253)
   &:last-child
     border-bottom: 1px solid #e2e2e2
 
@@ -195,7 +195,7 @@ section
     height: 1em
     width: 100%
     margin-top: 0.4em
-    border-bottom: 2px solid #333
+    border-bottom: 1px solid #333
     color: rgb(80, 80, 80)
 
   &:hover
@@ -216,3 +216,21 @@ html.wf-active body .content article
   color: #DDD
   line-height: 126%
   margin-top: -21px
+
+@media screen and (min-width: 800px)
+  html
+    background: linear-gradient(to bottom,#D3EFF0 0,#FFFFFF 100%)
+    body
+      width: 95%
+      max-width: 1200px
+      margin-left: auto
+      margin-right: auto
+      header
+        width: 95%
+        max-width: 1200px
+        margin-left: auto
+        margin-right: auto
+        padding-top: 35px
+        overflow: hidden
+      #posts
+        margin-top: 60px
