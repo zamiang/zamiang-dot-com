@@ -208,7 +208,8 @@ html.wf-active body .content article p a, html.wf-active body .content article u
 
 @media screen and (min-width: 800px) {
   html {
-    background: linear-gradient(to bottom, #d3eff0 0%, #ffffff 100%); }
+    background: url(/assets/images/fade.png);
+    background-repeat: repeat-x; }
     html body {
       width: 95%;
       max-width: 1200px;
@@ -220,6 +221,10 @@ html.wf-active body .content article p a, html.wf-active body .content article u
         margin-left: auto;
         margin-right: auto;
         padding-top: 35px;
-        overflow: hidden; }
+        overflow: hidden;
+        background-color: #fff;
+        background-image: url(/assets/images/fade.png);
+        background-repeat: repeat-x;
+        background-position: 0px 0px; }
       html body #posts {
         margin-top: 60px; } }
