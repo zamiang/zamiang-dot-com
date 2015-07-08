@@ -1,13 +1,13 @@
 #posts {
   width: 100%;
-  margin-top: 25px; }
+  margin-top: 80px; }
   #posts > .content {
     margin: 0px 0px; }
   #posts.index-page {
     padding-top: 0px;
     margin-top: -25px; }
   #posts .author {
-    border-top: 1px solid #e2e2e2; }
+    border-top: 1px solid #000; }
     #posts .author .written-by-note {
       font-family: "franklin-gothic-urw", sans-serif;
       line-height: 148%;

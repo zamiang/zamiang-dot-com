@@ -1,22 +1,29 @@
 @import "base"
 
-body
-  padding: 0px
-  margin: 0px
-  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif
-  letter-spacing: 0.01rem
-  font-weight: 400
-  font-style: normal
-  font-size: 20px
-  line-height: 1.6em
-  color: transparent
-  background: inherit
-  text-rendering: optimizeLegibility
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  font-smoothing: antialiased
-  a, h1, h2, h1 a, h2 a, h1, h3, h4, h5, h6
+html
+  background: url(/assets/images/fade.png)
+  background-repeat: repeat-x
+  body
+    padding: 0px
+    margin: 0px
+    width: 95%
+    max-width: 1200px
+    margin-left: auto
+    margin-right: auto
+    font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif
+    letter-spacing: 0.01rem
+    font-weight: 400
+    font-style: normal
+    font-size: 20px
+    line-height: 1.6em
     color: transparent
+    background: inherit
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    font-smoothing: antialiased
+    a, h1, h2, h1 a, h2 a, h1, h3, h4, h5, h6
+      color: transparent
 
 svg
   display: none
@@ -141,6 +148,16 @@ header
   text-align: center
   padding-top: 10px
   height: 35px
+  width: 95%
+  max-width: 1200px
+  margin-left: auto
+  margin-right: auto
+  padding-top: 35px
+  overflow: hidden
+  background-color: #fff
+  background-image: url(/assets/images/fade.png)
+  background-repeat: repeat-x
+  background-position: 0px 0px
   h1
     margin: 0px
     font-size: 20px
@@ -217,26 +234,12 @@ html.wf-active body .content article
   line-height: 126%
   margin-top: -21px
 
-@media screen and (min-width: 800px)
-  html
-    background: url(/assets/images/fade.png)
-    background-repeat: repeat-x
-    // linear-gradient(to bottom,#D3EFF0 0,#FFFFFF 100%)
-    body
-      width: 95%
-      max-width: 1200px
-      margin-left: auto
-      margin-right: auto
-      header
-        width: 95%
-        max-width: 1200px
-        margin-left: auto
-        margin-right: auto
-        padding-top: 35px
-        overflow: hidden
-        background-color: #fff
-        background-image: url(/assets/images/fade.png)
-        background-repeat: repeat-x
-        background-position: 0px 0px
-      #posts
-        margin-top: 60px
+.side-gradient
+  position: fixed
+  top: 400px
+  height: 400px
+  width: 150%
+  left: -25%
+  background: #E5FF00
+  z-index: 0
+  transform: rotate(22deg)

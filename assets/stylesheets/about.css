@@ -35,8 +35,8 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 0px solid #FFF;
-    background: white;
     height: 200px;
     width: 200px;
     overflow: hidden;
-    margin: 0px auto; }
+    margin: 0px auto;
+    mix-blend-mode: multiply; }
