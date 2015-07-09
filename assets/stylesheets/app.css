@@ -232,3 +232,226 @@ html.wf-active body .content article p a, html.wf-active body .content article u
   background: #E5FF00;
   z-index: 0;
   transform: rotate(22deg); }
+
+#about {
+  width: 100%;
+  overflow: hidden;
+  padding: 125px 0px 70px;
+  font-size: 20px; }
+  #about .info {
+    margin-top: 15px; }
+
+#about, #posts .author, #posts .section-title {
+  text-align: center;
+  width: 100%; }
+  #about .name, #posts .author .name, #posts .section-title .name {
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333;
+    margin-bottom: 28px;
+    font-family: "franklin-gothic-urw", sans-serif;
+    line-height: 148%;
+    font-weight: normal; }
+  #about .subheading, #posts .author .subheading, #posts .section-title .subheading {
+    width: 370px;
+    margin: 0px auto;
+    margin-bottom: 21px; }
+  #about h1, #posts .author h1, #posts .section-title h1 {
+    margin: 69px auto 30px; }
+  #about .links, #posts .author .links, #posts .section-title .links {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-size: 16px; }
+  #about .portrait, #posts .author .portrait, #posts .section-title .portrait {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 0px solid #FFF;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 0px auto;
+    mix-blend-mode: multiply; }
+
+#posts {
+  width: 100%;
+  margin-top: 80px; }
+  #posts > .content {
+    margin: 0px 0px; }
+  #posts.index-page {
+    padding-top: 0px;
+    margin-top: -25px; }
+  #posts .author {
+    border-top: 1px solid #000; }
+    #posts .author .written-by-note {
+      font-family: "franklin-gothic-urw", sans-serif;
+      line-height: 148%;
+      font-weight: normal;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 13px;
+      margin-top: 26px; }
+  #posts article {
+    padding-top: 50px;
+    position: relative; }
+    #posts article:first-child {
+      padding-top: 0px; }
+    #posts article:last-child {
+      padding-bottom: 0px; }
+    #posts article h1 {
+      text-align: left;
+      font-weight: normal;
+      line-height: 1.1em;
+      font-size: 48px;
+      margin-bottom: 11px;
+      letter-spacing: 1px;
+      font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+      transition: all 0.3s; }
+    #posts article div h1 {
+      font-size: 36px;
+      margin-top: 35px; }
+    #posts article a h1 {
+      text-decoration: none; }
+      #posts article a h1:hover {
+        text-decoration: underline; }
+    #posts article ol, #posts article ul {
+      color: #555; }
+    #posts article img {
+      width: 100%; }
+    #posts article h2 {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 3px; }
+    #posts article p {
+      margin: 0 0 14px; }
+    #posts article p {
+      margin-bottom: 24px; }
+    #posts article blockquote {
+      margin-bottom: 10px;
+      margin-right: 0px; }
+    #posts article time {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 2px; }
+    #posts article .content {
+      max-height: 457px;
+      overflow: hidden;
+      margin: 0px;
+      transition: all 0.3s ease;
+      position: relative; }
+    #posts article .bottom-gradient {
+      display: block;
+      position: relative;
+      border-top: 1px solid #000; }
+    #posts article .more-link {
+      display: block;
+      padding-top: 30px;
+      color: black; }
+
+.project {
+  position: relative;
+  border-bottom: 1px solid #000;
+  padding: 50px 0px;
+  margin: 0px auto;
+  width: 600px;
+  overflow: hidden;
+  *zoom: 1;
+  text-align: left; }
+  .project:last-child {
+    border-bottom: 0px; }
+  .project h2 {
+    width: 91px; }
+  .project h2, .project h2 a {
+    color: #444;
+    display: inline-block; }
+  .project .description {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+    max-width: 444px;
+    margin-left: 32px; }
+
+#publications:after {
+  border-bottom-color: #fff; }
+#publications .publication {
+  border-bottom: 1px solid #000;
+  color: #555;
+  padding: 34px;
+  padding-left: 0px; }
+  #publications .publication remoteurls {
+    display: inline; }
+  #publications .publication h2 {
+    margin-bottom: 10px; }
+  #publications .publication .subheading {
+    font-size: 17px;
+    line-height: 148%;
+    padding-bottom: 17px; }
+    #publications .publication .subheading.last {
+      padding-bottom: 0px; }
+  #publications .publication .author {
+    color: #555;
+    font-style: italic;
+    display: block;
+    margin-bottom: 3px; }
+  #publications .publication .journal, #publications .publication .date {
+    color: #555; }
+  #publications .publication:first-child {
+    padding-top: 0px;
+    border-top: 0px; }
+  #publications .publication:last-child {
+    border-bottom: 0px solid;
+    padding-bottom: 0px;
+    margin-bottom: 0px; }
+
+@media (max-width: 800px) {
+  header {
+    left: 25px;
+    width: calc(100% - 50px); } }
+@media (max-width: 700px) {
+  body {
+    font-size: 16px; }
+
+  .content {
+    width: auto;
+    margin: 0px 20px; }
+
+  #article .content {
+    margin: 0px 0px; }
+
+  header {
+    left: 0px;
+    width: 100%; }
+
+  #about {
+    padding: 70px 0px; }
+    #about .subheading {
+      width: 100%; }
+    #about .portrait {
+      margin-top: 30px; }
+    #about .name.faux-underline-large.blog-heading {
+      max-width: 200px; }
+      #about .name.faux-underline-large.blog-heading:before {
+        border-bottom: 0px solid #333; }
+
+  #posts .author .subheading {
+    width: 100%; }
+  #posts article h1 {
+    font-size: 30px; }
+
+  #photos img {
+    width: auto; }
+
+  .project {
+    width: 100%; }
+    .project h2, .project h2 a {
+      text-align: left; }
+    .project p, .project .description {
+      margin-left: 0px; }
+
+  #publications {
+    padding-top: 0px; }
+    #publications .publication {
+      padding-right: 0px; } }

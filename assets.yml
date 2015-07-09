@@ -6,8 +6,3 @@ stylesheets:
   application:
     - assets/stylesheets/normalize.css
     - assets/stylesheets/app.css
-    - assets/stylesheets/about.css
-    - assets/stylesheets/posts.css
-    - assets/stylesheets/projects.css
-    - assets/stylesheets/publications.css
-    - assets/stylesheets/responsive.css
