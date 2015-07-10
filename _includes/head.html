@@ -18,6 +18,14 @@
   {% if page.date %}
     <meta http-equiv="date" content="{{ page.date | date: '%A, %d %Y %H:%M:%S GMT' }}" />
   {% endif %}
+
+  {% if paginator.previous_page %}
+    <link rel="prev" href="{{ paginator.previous_page_path }}" />
+  {% endif %}
+  {% if paginator.next_page %}
+    <link rel="next" href="{{ paginator.next_page_path }}" />
+  {% endif %}
+
   <link rel="stylesheet" type="text/css" href="/assets/stylesheets/normalize.css" />
   <link rel="stylesheet" type="text/css" href="/assets/stylesheets/app.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
