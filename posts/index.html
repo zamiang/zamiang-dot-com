@@ -21,7 +21,7 @@ category: posts
         {% for post in paginator.posts %}
         <article>
             <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: '%B %d, %Y' }}</time>
-            <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
             <div class="content">{{ post.content | truncatewords:220 }}</div>
             <div class="bottom-gradient"></div>
             <a class="more-link" href="{{ post.url }}">

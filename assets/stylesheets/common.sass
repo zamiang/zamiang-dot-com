@@ -82,6 +82,8 @@ h3
 a
   font-weight: 400
   text-decoration: none
+  &:hover
+    text-decoration: underline
 
 .wrapper
   margin: 0 auto
@@ -176,7 +178,7 @@ section
   padding: 70px 0px
   position: relative
   &:last-child
-    border-bottom: 1px solid #e2e2e2
+    padding-bottom: 20px
 
 .faux-underline, .project h2 a
   &
@@ -250,10 +252,11 @@ section
     margin-top: 26px
 
 .related-posts
-  ul
+  .posts
     max-width: 700px
     margin: 0px auto
-    li
+    padding: 0px
+    .post
       list-style: none
       border-bottom: 1px solid #000
       color: #555
