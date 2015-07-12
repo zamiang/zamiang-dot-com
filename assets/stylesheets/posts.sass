@@ -1,3 +1,24 @@
+$from: #E7FF00
+$to: #DCF2F3
+
+@-webkit-keyframes color_change
+  from
+    color: $from
+  to
+    color: $to
+
+@-moz-keyframes color_change
+  from
+    color: $from
+  to
+    color: $to
+
+@keyframes color_change
+  from
+    color: $from
+  to
+    color: $to
+
 #posts
   width: 100%
   margin-top: 80px
@@ -102,7 +123,7 @@
       max-width: 800px
       .post
         border: 0px solid
-        padding: 18px 0px 18px 22px
+        padding: 18px 0px 18px 18px
         width: 91%
         position: relative
         &:before
@@ -110,7 +131,11 @@
           color: #000
           position: absolute
           left: 0px
-          top: 12px
+          top: 13px
+          font-size: 11px
+          -webkit-animation: color_change 1s infinite alternate
+          -moz-animation: color_change 1s infinite alternate
+          animation: color_change 1s infinite alternate
         h2
           padding: 0px
           margin: 0px
