@@ -1,13 +1,15 @@
 <section class="related-posts">
-    <center><h1>Featured Posts</h1></center>
-    <div class="posts">
-        {% for post in site.posts %}
-        {% if post.tags contains 'favorite' %}
-        <div class="post">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <div class="post-content">{{ post.content | strip_html | truncatewords:25 }}</div>
+    <div class="content">
+        <center><h1>Featured Posts</h1></center>
+        <div class="posts">
+            {% for post in site.posts %}
+            {% if post.tags contains 'favorite' %}
+            <div class="post">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <div class="post-content">{{ post.content | strip_html | truncatewords:25 }}</div>
+            </div>
+            {% endif %}
+            {% endfor %}
         </div>
-        {% endif %}
-        {% endfor %}
     </div>
 </section>

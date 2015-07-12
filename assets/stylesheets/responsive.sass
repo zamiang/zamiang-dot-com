@@ -4,8 +4,10 @@
     width: calc(100% - 50px)
 
 @media (max-width: 700px)
-  body
+  html body
     font-size: 16px
+    h2
+      font-size: 18px
 
   .content
     width: auto
@@ -30,13 +32,31 @@
       &:before
         border-bottom: 0px solid #333
 
+  #about .subheading, .author-object .subheading, #posts .section-title .subheading
+    width: 100%
+
   #posts
-    .author .subheading
-      width: 100%
+    padding-left: 15px
+    padding-right: 15px
+    width: auto
+    .related-posts
+      .posts
+        -webkit-column-count: 1
+        -moz-column-count: 1
+        column-count: 1
 
     article
       h1
         font-size: 30px
+        margin-top: 4px
+
+  .side-gradient
+    left: -28%
+    width: 119%
+    height: 212px
+    top: 260px
+    transform: rotate(31deg) translateZ(0)
+    -webkit-transform: rotate(31deg) translateZ(0)
 
   #photos img
     width: auto
