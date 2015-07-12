@@ -1,6 +1,7 @@
 html
   background: url(/assets/images/fade.png)
   background-repeat: repeat-x
+  background-position: 0px -100px
   body
     padding: 0px
     margin: 0px
@@ -31,7 +32,7 @@ html.wf-active body
   time
     color: rgba(0,0,0,0.8)
   a
-    color: #39c
+    color: #1a77bd
 
   h1, h2, h1 a, h2 a, h1
     color: #222
@@ -155,7 +156,7 @@ header
   background-color: #fff
   background-image: url(/assets/images/fade.png)
   background-repeat: repeat-x
-  background-position: 0px 0px
+  background-position: 0 -100px
   h1
     margin: 0px
     font-size: 20px
@@ -220,15 +221,8 @@ section
   &:before
     border-bottom: 3px solid #333
 
-html.wf-active body .content article
-  p, ul li
-    a
-      color: rgba(0,0,0,0.8)
-      text-decoration: underline
-
 .ellipsis
   font-size: 61px
-  color: #DDD
   line-height: 126%
   margin-top: -21px
 
@@ -236,8 +230,34 @@ html.wf-active body .content article
   position: fixed
   top: 400px
   height: 400px
-  width: 150%
-  left: -25%
-  background: #E5FF00
+  width: 120%
+  left: -10%
+  background: #E7FF00
   z-index: 0
-  transform: rotate(22deg)
+  transform: rotate(22deg) translateZ(0)
+  -webkit-transform: rotate(22deg) translateZ(0)
+  display: block
+
+.author-object
+  border-top: 1px solid #000
+  .written-by-note
+    font-family: "franklin-gothic-urw",sans-serif
+    line-height: 148%
+    font-weight: normal
+    letter-spacing: 2px
+    text-transform: uppercase
+    font-size: 13px
+    margin-top: 26px
+
+.related-posts
+  ul
+    max-width: 700px
+    margin: 0px auto
+    li
+      list-style: none
+      border-bottom: 1px solid #000
+      color: #555
+      padding: 34px
+      padding-left: 0px
+      &:last-child
+        border-bottom: 0px solid #000

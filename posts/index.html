@@ -22,9 +22,7 @@ category: posts
         <article>
             <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: '%B %d, %Y' }}</time>
             <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-            <div class="content">
-                {{ post.content }}
-            </div>
+            <div class="content">{{ post.content | truncatewords:220 }}</div>
             <div class="bottom-gradient"></div>
             <a class="more-link" href="{{ post.url }}">
                 <p class="faux-underline">Read More</p>

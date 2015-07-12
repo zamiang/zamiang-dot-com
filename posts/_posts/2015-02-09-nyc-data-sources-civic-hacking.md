@@ -3,7 +3,7 @@ layout: post
 title: "Data Sources and Tools for Civic Hacking"
 description: ""
 category: post
-tags: []
+tags: ['favorite']
 ---
 
 While working on [Vislet](http://www.vislet.com), I have been cataloging useful tools and interesting datasets. These are all tools that I have done something with and a description about what that was.

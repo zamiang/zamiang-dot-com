@@ -4,7 +4,7 @@ title: "Leaving the Dream Job"
 description: ""
 category: post
 published: false
-tags: []
+tags: ['favorite']
 ---
 
 I left Artsy 3 months ago.

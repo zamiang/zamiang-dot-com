@@ -3,7 +3,7 @@ layout: post
 title: "No flex zone: The case for the codeless internet startup"
 description: ""
 category: post
-tags: []
+tags: ['favorite']
 ---
 
 Hell is building fancy stuff that nobody uses.

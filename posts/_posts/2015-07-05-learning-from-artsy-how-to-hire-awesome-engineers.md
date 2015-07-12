@@ -3,7 +3,7 @@ layout: post
 title: "Learning from Artsy #1: How to hire awesome engineers"
 description: ""
 category: post
-tags: []
+tags: ['favorite']
 ---
 
 This is the start of a series about the lessons I learned while directing the web engineering team at Artsy. Artsy's vision is that art can be as popular as music, and its mission is to bring all of the world's art online. It has now raised over [50MM](http://blogs.wsj.com/privateequity/2015/03/26/catterton-leads-25-million-funding-round-for-artsy/) and has made it to that in-between phase where it is ['not a startup not yet a company'](https://www.youtube.com/watch?v=IlV7RhT6zHs).

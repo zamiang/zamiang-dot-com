@@ -3,7 +3,7 @@ layout: post
 title: "How we made Google Site Search awesome at Artsy"
 description: ""
 category: post
-tags: []
+tags: ['favorite']
 ---
 
 This post is about how, in a week, we switched from Solr to [Google Site Search](https://support.google.com/customsearch/answer/72326?hl=en) and customized it into a fast, [beautiful search service](https://artsy.net/search?q=banksy). Search is a difficult problem -- a really difficult problem. For small companies and startups, the common solution to search is to launch a custom search service based on [Solr](http://lucene.apache.org/solr/) or [Elastic Search](http://www.elasticsearch.org/). While these services are very appropriate for private data, we think Google Site Search should be considered in addition to these services for a public website. It is often not considered because users search on a dedicated site with different intent than they search Google. We found that while this may be true, it is not necessarily a good reason to roll your own search service for your public site.
