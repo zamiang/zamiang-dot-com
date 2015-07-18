@@ -6,7 +6,7 @@ $(function() {
         if (scrollPosition < 1) {
             scrollPosition = 0;
         }
-        $background.css({'background-position': "0px -" + (scrollPosition - 100) + "px"});
+        $background.css({'background-position': "0px -" + (scrollPosition + 100) + "px"});
     };
     $window.scroll(updateBackgroundPosition);
 });
