@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: "Posts"
 category: posts
 ---
@@ -24,9 +24,7 @@ category: posts
             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
             <div class="content">{{ post.content | truncatewords:220 }}</div>
             <div class="bottom-gradient"></div>
-            <a class="more-link" href="{{ post.url }}">
-                <p class="faux-underline">Read More</p>
-            </a>
+            <a class="more-link" href="{{ post.url }}">Read More</a>
         </article>
         {% endfor %}
         <!-- Pagination links -->
