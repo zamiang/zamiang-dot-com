@@ -1,3 +1,5 @@
+@import "base"
+
 html
   background: url(/assets/images/fade.png)
   background-repeat: repeat-x
@@ -28,11 +30,21 @@ svg
   display: none
 
 html.wf-active body
-  color: rgba(0,0,0,0.8)
+  color: $default-font-color
   time
-    color: rgba(0,0,0,0.8)
+    color: $default-font-color
   a
-    color: #1a77bd
+    color: $default-font-color
+    border-bottom: 2px solid $border-color
+    transition: border-color 0.3s
+    text-decoration: none
+    &:hover
+      border-color: $highlight
+
+  header h1 a
+    border-color: transparent
+    &:hover
+      border-color: $highlight
 
   h1, h2, h1 a, h2 a, h1
     color: #222
@@ -180,45 +192,6 @@ section
   &:last-child
     padding-bottom: 20px
 
-.faux-underline, .project h2 a
-  &
-    display: inline-block
-    position: relative
-    text-decoration: none
-
-  &:before
-    content: ''
-    position: absolute
-    left: 0
-    display: inline-block
-    height: 1em
-    width: 100%
-    margin-top: 0.3em
-    border-bottom: 1px solid #777
-    color: rgb(80, 80, 80)
-
-  &:hover
-    text-decoration: none
-
-.faux-underline-large
-  &
-    display: inline-block
-    position: relative
-    text-decoration: none
-  &:before
-    content: ''
-    position: absolute
-    left: 0
-    display: inline-block
-    height: 1em
-    width: 100%
-    margin-top: 0.4em
-    border-bottom: 1px solid #333
-    color: rgb(80, 80, 80)
-
-  &:hover
-    text-decoration: none
-
 .content > h1
   &:before
     border-bottom: 3px solid #333
@@ -242,6 +215,7 @@ section
 
 .author-object
   border-top: 1px solid #000
+  padding-top: 80px
   .written-by-note
     font-family: "franklin-gothic-urw",sans-serif
     line-height: 148%
