@@ -25,26 +25,22 @@ I am interested in helping early stage companies document their product goals/vi
 
 ## [Know Yourself](https://www.youtube.com/watch?v=79AR0VC5wCA)
 
-Beyond focusing my carrier, I also want to disengage with the things I am don't enjoy doing and to deliberately and thoroughly engage with the things I like doing.
+Beyond focusing my carrier, I also want to disengage with the things I am don't enjoy doing and to deliberately and thoroughly engage with the things I like doing. In practice, this means growing the hobbies that I actually like and dropping the ones I don't. Rather than take retreats to totally reset, I try to find small things I can change about the things I already do, and monitor those changes.
 
-Rather than take retreats, I try to find small things I can change about the things I already do, and monitor those changes.
+Here are some things I like that I plan to expand over the next year:
 
-Grow the hobbies that I actually like:
-
-- **Tea** is great! I've loved tea since I could safely handle boiling water. The [searious eats guide to tea ](http://www.seriouseats.com/2015/01/tea-for-everyone.html) and my roommate taking me to [Gonfu tea ceremony](https://en.wikipedia.org/wiki/Gongfu_tea_ceremony) in Flushing quickly broadened the world of tea for me this year.
-  - Goal: Go broad or go deep? This year I have some opportunity to deepen my appreciation for Chinese Tea, going to do that by...going to China for a lil bit.
-- **Meditation** Going wide instead of deep is pretty much the story of my life up until this point. Meditation is something that really helped me in highschool, and now during this new transition.
-  - Continue to use [Headspace App](https://www.headspace.com/) daily for one year
-- **Community** My goal is to meet someone new at least once a week either by reaching out to my twitter network or otherwise.
+- **Tea** is great! I've loved tea since I could safely handle boiling water. The [serious eats guide to tea ](http://www.seriouseats.com/2015/01/tea-for-everyone.html) and my roommate taking me to [Gongfu tea ceremony](https://en.wikipedia.org/wiki/Gongfu_tea_ceremony) in Flushing quickly broadened the world of tea for me this year.
+  - Goal: Go broad or go deep? This year I have some opportunity to deepen my appreciation and understanding of the wide world of Chinese Tea, going to do that by...going to China for a lil bit.
+- **Meditation** is something that really helped me in middle and high school but is something I never diligently explored.
+  - Goal: Continue to use [Headspace App](https://www.headspace.com/) daily for one year.
+- **Community** is the under-sung hero in our society that focus on the myth of the individual creator. As Gary Chou says, your success is more determined by your network than your passion or skills.
+  - Goal: Meet someone new at least once a week either by reaching out to my twitter network or otherwise. Make these new connections meaningful.
 - **Beautiful things** As superficial as it is, thoughtful design makes me really happy. As an engineer, I'm financially able to spend $100 on a tea cup and not think much of it.
+  - Goal: Buy one beautiful but totally unnecessary thing that makes me happy.
 - **Writing** I struggle with words pretty much all the time.
-  - Goal: Hired an editor or someone to help with writing
+  - Goal: Hire an editor or someone to help improve my writing process.
 
-Learn about my [Worst behavior](https://www.youtube.com/watch?v=CccnAvfLPvE).
-
-When am I my worst self? I need to better understand my worst self. While I would like to I think the stresses of freelancing will bring out many of those qualities. Even when I am well rested, I am at my worst when I have no clear direction but am also not empowered to effectively define a clear direction. I don't have an actionable 'goal' here but I do want to 'get to know my worst self.'
-
-My worst self really comes out when when I don't know if I am delivering value, or even worse, knowing that I am working on a project that doesn't deliver value.
+As far as disengaging with the things I don't enjoy, I don't really have any hobbies that I don't like - they are pretty easy to drop. The challenge here is as dropping work that brings out my [Worst behavior](https://www.youtube.com/watch?v=CccnAvfLPvE). High level, I am at my worst when I have no clear direction but am also not empowered to effectively define a clear direction. My worst self really comes out when when I don't know if I am delivering value, or even worse, knowing that I am working on a project that doesn't deliver value. While I value marketing as a way to reach people, constructing marketing websites is not my passion. Great design makes a marketing website work, great engineering does not. While separating marketing work from product work may be a bit of a false dichotomy, in the next year I will work on no more marketing websites -- only functional products -- for the foreseeable future.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">It&#39;s like dev bootcamp but for compassion and how to listen and be a decent fucking human being.</p>&mdash; Arlen Abraham (@arlenarlenarlen) <a href="https://twitter.com/arlenarlenarlen/status/629826360387616768">August 8, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -57,3 +53,4 @@ Essays that have been helpful when thinking through this set of changes:
 - [The crossroads of 'Should and Must'](https://medium.com/@elleluna/the-crossroads-of-should-and-must-90c75eb7c5b0)
 - [The thesis after your thesis](https://medium.com/@garychou/the-thesis-after-your-thesis-62c47d3a4c0a)
 - [Nicely Said](http://www.amazon.com/dp/B00KFGCD1I/ref=r_soa_w_d)
+- [Ellen Chisa on what she learned in HBS (she later dropped out to start a company)](https://medium.com/thelist/what-s-one-thing-you-ve-learned-at-harvard-business-school-that-blew-your-mind-fdea346a0422)
