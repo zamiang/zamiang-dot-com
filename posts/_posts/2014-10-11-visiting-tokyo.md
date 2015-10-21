@@ -3,7 +3,6 @@ layout: post
 title: "Tips for traveling to and understanding Tokyo as a foreigner"
 description: ""
 category: post
-tags: ['favorite']
 ---
 
 This is a quick run down of my experience visiting Tokyo for the first
