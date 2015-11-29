@@ -16,7 +16,7 @@ Here I’ve loosely documented some of the major pieces of physical infrastructu
 
 I don’t want this list to be something needlessly negative but a list to help us New Yorkers focus. If we want to talk about what making New York better, where should we start? Wikipedia does a very good job putting a positive spin on New York City’s environmental issues [here](https://en.wikipedia.org/wiki/Environmental_issues_in_New_York_City). While broader than infrastructure and overly positive, it is worth a read. I learned that while NYC is responsible for 1% of the US’s greenhouse gas emissions, it makes up 2.7% of the total population — making NYC significantly more environmentally friendly than cities such as Portland and SF.
 
-Much like NYC, this document is intended to be a constant work in progress rather some authoritative unchanging thing. I am no expert on this, only an interested observer. If you have any recommendations please contact me or collaborate on the post [on Github](https://github.com/zamiang/zamiang-dot-com/tree/master/posts/_posts).
+Much like NYC, this document is intended to be a constant work in progress rather some authoritative unchanging thing. I am no expert on this, only an interested observer. If you have any recommendations please contact me or collaborate on the post [on Github](https://github.com/zamiang/zamiang-dot-com/blob/master/posts/_posts/2015-11-29-new-yorks-infrastructure.md).
 
 * * *
 
@@ -179,4 +179,4 @@ Infrastructure issues could include the low number of public schools, lack of af
 
 I hope this list is a helpful as a broad overview of some of the issues New York City faces. A thesis could be written on most of the individual bullet points in this list much less the larger themes. I’ve tried to link to insightful and readable articles to help the reader dig into issues they are interested in but I know even that gives an extremely incomplete picture.
 
-As I mentioned above, this is meant to be collaborative work in progress. If you have any contributions or want to pose some changes to this list please contact me or collaborate on the post [on Github](https://github.com/zamiang/zamiang-dot-com/tree/master/posts/_posts).
+As I mentioned above, this is meant to be collaborative work in progress. If you have any contributions or want to pose some changes to this list please contact me or collaborate on the post [on Github](https://github.com/zamiang/zamiang-dot-com/blob/master/posts/_posts/2015-11-29-new-yorks-infrastructure.md).
