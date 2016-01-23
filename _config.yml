@@ -1,9 +1,7 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor", "Gemfile", "Gemfile.lock", "Guardfile", "assets.yml"]
-highlighter: pygments
+highlighter: rouge
 
-gems:
-  - jekyll-sitemap
-
+gems: [jekyll-sitemap, jekyll-paginate]
 sass:
   style: :compressed
   sass_dir: assets/stylesheets

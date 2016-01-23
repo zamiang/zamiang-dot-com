@@ -7,6 +7,7 @@ Encoding.default_internal = Encoding::UTF_8
 
 # jekyll
 gem 'jekyll'
+gem 'jekyll-paginate'
 gem 'liquid'
 gem 'redcarpet'
 
