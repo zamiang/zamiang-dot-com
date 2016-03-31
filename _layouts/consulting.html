@@ -1,0 +1,19 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="wrapper">
+      <section id="posts" class="index-page">
+        <article>
+          {{ content }}
+        </article>
+      </section>
+    </div>
+    {% include ga.html %}
+  </body>
+</html>

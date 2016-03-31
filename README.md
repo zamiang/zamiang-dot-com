@@ -2,7 +2,10 @@
 
 ## Code for zamiang.com
 
-Site is built on Jekyll and deployed on S3. See the [Jeckyll docs](http://jekyllrb.com/) and the [s3_website docs](https://github.com/laurilehmijoki/s3_website). Travis builds deploy the site to S3.
+Site is built on Jekyll and deployed on S3. See the
+[Jeckyll docs](http://jekyllrb.com/) and the
+[s3_website docs](https://github.com/laurilehmijoki/s3_website). Travis
+builds deploy the site to S3.
 
 ### Setup
 
@@ -14,7 +17,8 @@ $ guard
 
 ### Deploy
 
-The website is automatically deployed each time a change is commited to this repository.
+The website is automatically deployed each time a change is committed
+to this repository.
 
 ### License
 
