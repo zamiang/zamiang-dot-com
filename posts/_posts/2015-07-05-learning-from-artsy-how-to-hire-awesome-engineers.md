@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning from Artsy #1: How to hire awesome engineers"
+title: "Learning from Artsy: How to hire awesome engineers"
 description: ""
 category: post
 tags: ['favorite']

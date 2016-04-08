@@ -12,7 +12,6 @@ builds deploy the site to S3.
 ```bash
 $ bundle install
 $ jekyll serve --watch
-$ guard
 ```
 
 ### Deploy
