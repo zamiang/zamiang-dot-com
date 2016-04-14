@@ -3,7 +3,7 @@ layout: post
 title: "Why I don’t do live coding interviews"
 description: ""
 category: post
-tags: []
+tags: ['favorite']
 ---
 
 # Live coding interviews test culture fit under the guise of testing competence.

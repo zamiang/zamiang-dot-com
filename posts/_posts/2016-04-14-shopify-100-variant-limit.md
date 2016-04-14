@@ -3,7 +3,7 @@ layout: post
 title: "How we beat the Shopify 100 variant limit"
 description: ""
 category: post
-tags: ['favorite']
+tags: []
 ---
 
 _…without going *completely* crazy in the process._
